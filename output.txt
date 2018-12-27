@@ -1,0 +1,3045 @@
+(load "dd")
+;; Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd.cl ...
+;;  Loading file gate_get.cl ...
+=======================
+Loading GATE 2.3, Common Lisp version of 2004-12-20...
+=======================
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/compat.cl ...
+** - Continuable Error
+DEFUN/DEFMACRO(SUBSTRING): #<PACKAGE EXT> is locked
+If you continue (by typing 'continue'): Ignore the lock and proceed
+The following restarts are also available:
+SKIP           :R1      skip (DEFMACRO SUBSTRING # ...)
+RETRY          :R2      retry (DEFMACRO SUBSTRING # ...)
+STOP           :R3      stop loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/compat.cl
+SKIP           :R4      skip (LOAD compat)
+RETRY          :R5      retry (LOAD compat)
+STOP           :R6      stop loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_get.cl
+SKIP           :R7      skip (LOAD gate_get.cl)
+RETRY          :R8      retry (LOAD gate_get.cl)
+STOP           :R9      stop loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd.cl
+ABORT          :R10     Abort main loop
+Break 1 [10]> :R1
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/compat.cl
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/loop.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/loop.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_macros.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_macros.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_main.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_main.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_ty.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_ty.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_cx.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_cx.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_instan.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_instan.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_prove.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_prove.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_read_pr.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_read_pr.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_unify.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_unify.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_utils.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/gate_utils.fas
+;;   Loading file gate_obs.cl ...
+;;   Loaded file gate_obs.cl
+=======================
+Welcome to GATE 2.3, Common Lisp version of 2004-12-20
+=======================
+;;  Loaded file gate_get.cl
+;;  Loading file dd_get.cl ...
+=======================
+Loading DAYDREAMER 3.5, Common Lisp version of 2004-12-20...
+=======================
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_macros.cl ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_macros.cl
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_cntrl.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_cntrl.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_epis.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_epis.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_mutation.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_mutation.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_night.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_night.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_reversal.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_reversal.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_ri.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_ri.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_rule1.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_rule1.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_rule2.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_rule2.fas
+;;   Loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_utils.fas ...
+;;   Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd_utils.fas
+;;   Loading file dd_kb.cl ...
+Adding rule ENTERTAINMENT-THEME
+Adding rule ENTERTAINMENT-PLAN1
+Adding rule ENTERTAINMENT-INF1
+Adding rule M-MOVIE-ALONE-PLAN
+Adding rule MTRANS-MOVIE-PLAN
+Adding rule LOVERS-THEME
+Adding rule LOVERS-PLAN
+Adding rule ACQUAINTED-PLAN
+Adding rule M-CONVERSATION-PLAN
+Adding rule MTRANS-ACCEPTABLE-INF1
+Adding rule MTRANS-ACCEPTABLE-INF2
+Adding rule MTRANS-ACCEPTABLE-INF3
+Adding rule M-AGREE-PLAN
+Adding rule LOVERS-THEME-PLAN
+Adding rule M-DATE-PLAN
+Adding rule ENABLE-FUTURE-VPROX-PLAN1
+Adding rule ENABLE-FUTURE-VPROX-PLAN2
+Adding rule FRIDAY-NIGHT-PLAN
+Adding rule NOT-LOVERS-PLAN1
+Adding rule M-BREAK-UP-PLAN1
+Adding rule M-BREAK-UP-PLAN2
+Adding rule AT-PLAN
+Adding rule PTRANS-PLAN
+Adding rule BELIEVE-PLAN1
+Adding rule BELIEVE-PLAN2
+Adding rule MTRANS-PLAN2
+Adding rule VPROX-PLAN1
+Adding rule VPROX-INF
+Adding rule POS-ATTITUDE-PLAN2
+Adding rule POS-ATTITUDE-PLAN3
+Adding rule ROMANTIC-INTEREST-PLAN1
+Adding rule ROMANTIC-INTEREST-PLAN2
+Adding rule STAR-PLAN
+Adding rule M-STUDY-PLAN
+Adding rule RATIONALIZATION-THEME
+Adding rule RATIONALIZATION-PLAN1
+Adding rule RATIONALIZATION-INF1
+Adding rule RATIONALIZATION-PLAN2
+Adding rule LEADTO-PLAN1
+Adding rule OTHER-RULE1
+Adding rule ACTING-JOB-THEME
+Adding rule RPROX-PLAN
+Adding rule PTRANS1-PLAN
+Adding rule JOB-FAILURE
+Adding rule LOVERS-P-GOAL
+Adding rule WELL-DRESSED-PLAN2
+Adding rule RATIONALIZATION-PLAN3
+Adding rule MINIMIZATION-PLAN
+Adding rule REVENGE-THEME
+Adding rule REVENGE-PLAN1
+Adding rule FAILED-REL-GOAL-PLAN1
+Adding rule BELIEF-PERS-ATTR-PLAN1
+Adding rule BELIEF-PERS-ATTR-PLAN3
+Adding rule KNOW-TELNO-RULE1
+Adding rule KNOW-TELNO-RULE2
+Adding rule NEG-ATTITUDE-INF
+Adding rule SOCIAL-ESTEEM-FAILURE
+Adding rule WELL-DRESSED-PLAN1
+Adding rule WEARING-PLAN
+Adding rule M-PUTON-PLAN
+Adding rule VPROX-PLAN2
+Adding rule VPROX-PLAN4
+Adding rule M-PHONE-PLAN1
+Adding rule M-PHONE-PLAN2
+Adding rule KNOW-PLAN2
+Adding rule KNOW-PLAN3
+Adding rule MTRANS-PLAN1
+Adding rule VPROX-REFLEXIVE-PLAN
+Adding rule BELIEVE-BELIEVE-INF
+Defining episode...
+Assert #{OB.1978: (SUCCEEDED-GOAL obj (RPROX...)......)} in CX.3
+Assert #{OB.1980: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.3
+Assert #{OB.1975: (SUCCEEDED-GOAL obj (ACTING-EMPLOY...)......)} in CX.3
+Generating rule automatically.
+Adding rule EPISODIC-RULE.1:
+(RULE subgoal (RPROX actor ?var37012:PERSON
+                     location ?var37013:CITY)
+      goal (ACTING-EMPLOY actor ?var37012:PERSON ?var37014:ORGANIZATION)
+      is 'PLAN-ONLY
+      plausibility 0.7)
+Make episode for goal #{OB.1975: (SUCCEEDED-GOAL obj (ACTING-EMPLOY...)......)}
+Storing #{EPISODE.1: (EPISODE rule EPISODIC-RULE.1......)} under #{EPISODIC-RULE.1: (RULE subgoal (RPROX actor ......) goal ......)}
+Defining episode...
+Assert #{OB.2012: (SUCCEEDED-GOAL obj (PTRANS...)......)} in CX.4
+Assert #{OB.2014: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.4
+Assert #{OB.2010: (SUCCEEDED-GOAL obj (AT actor ......)......)} in CX.4
+Make episode for goal #{OB.2010: (SUCCEEDED-GOAL obj (AT actor ......)......)}
+Storing #{EPISODE.2: (EPISODE rule AT-PLAN goal ......)} under #{AT-PLAN: (RULE subgoal (PTRANS actor ......)......)}
+Assert #{OB.2016: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.4
+Assert #{OB.2017: (SUCCEEDED-GOAL obj (AT actor ......)......)} in CX.4
+Assert #{OB.2019: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.4
+Assert #{OB.2008: (SUCCEEDED-GOAL obj (LOVERS...)......)} in CX.4
+Generating rule automatically.
+Adding rule EPISODIC-RULE.2:
+(RULE subgoal (RSEQ obj (AT actor ?var37015:PERSON
+                            obj ?var37016:LOCATION)
+                        (AT actor ?var37017:PERSON
+                            obj ?var37016:LOCATION))
+      goal (LOVERS actor ?var37015:PERSON ?var37017:PERSON)
+      is 'PLAN-ONLY
+      plausibility 0.7)
+Make episode for goal #{OB.2008: (SUCCEEDED-GOAL obj (LOVERS...)......)}
+Storing #{EPISODE.3: (EPISODE rule EPISODIC-RULE.2......)} under #{EPISODIC-RULE.2: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+Assert #{OB.2031: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.4
+Assert #{OB.2002: (SUCCEEDED-GOAL obj (LEADTO...)......)} in CX.4
+Generating rule automatically.
+Adding rule EPISODIC-RULE.3:
+(RULE subgoal (LOVERS actor ?var37015:PERSON ?var37017:PERSON)
+      goal (LEADTO ante (FAILED-GOAL obj (LOVERS actor ?var37015:PERSON ?var37018:PERSON))
+                   conseq (SUCCEEDED-GOAL obj (LOVERS actor ?var37015:PERSON ?var37017:PERSON)))
+      is 'PLAN-ONLY
+      plausibility 0.7)
+Make episode for goal #{OB.2002: (SUCCEEDED-GOAL obj (LEADTO...)......)}
+Storing #{EPISODE.4: (EPISODE rule EPISODIC-RULE.3......)} under #{EPISODIC-RULE.3: (RULE subgoal (LOVERS actor ......)......)}
+Assert #{OB.2042: (INTENDS linked-from (SUCCEEDED-GOAL...)......)} in CX.4
+Assert #{OB.1997: (SUCCEEDED-GOAL obj (LEADTO...)......)} in CX.4
+Generating rule automatically.
+Adding rule EPISODIC-RULE.4:
+(RULE subgoal (LEADTO ante (FAILED-GOAL obj (LOVERS actor ?var37015:PERSON ?var37018:PERSON))
+                      conseq (SUCCEEDED-GOAL obj (LOVERS actor ?var37015:PERSON ?var37017:PERSON)))
+      goal (LEADTO ante (FAILED-GOAL obj (LOVERS actor ?var37015:PERSON ?var37018:PERSON))
+                   conseq (SUCCEEDED-GOAL))
+      is 'PLAN-ONLY
+      plausibility 0.7)
+Make episode for goal #{OB.1997: (SUCCEEDED-GOAL obj (LEADTO...)......)}
+Storing #{EPISODE.5: (EPISODE rule EPISODIC-RULE.4......)} under #{EPISODIC-RULE.4: (RULE subgoal (LEADTO ante ......) goal ......)}
+;;   Loaded file dd_kb.cl
+;;   Loading file dd_gen.cl ...
+;;   Loaded file dd_gen.cl
+=======================
+Welcome to DAYDREAMER 3.5, Common Lisp version of 2004-12-20
+=======================
+;;  Loaded file dd_get.cl
+DAYDREAMER 3.5, Common Lisp version of 2004-12-20
+Initialize DAYDREAMER
+Performing first-time initialization
+Creating primal reality...
+Assert #{OB.1995: (KNOW actor CHRIS obj BAR1-LOC......)} in CX.5
+Assert #{OB.1994: (KNOW actor ME obj BAR1-LOC......)} in CX.5
+Assert #{OB.1992: (AT actor BAR1 obj BAR1-LOC......)} in CX.5
+Assert #{VENICE: (CITY name "Venice Beach")} in CX.5
+Assert #{OB.1781: (KNOW actor MOVIE-STAR1 obj ......)} in CX.5
+Assert #{OB.1710: (EMPLOYMENT actor CARMELITA1......)} in CX.5
+Assert #{OB.1679: (AT actor RAINCOAT1 obj HOME......)} in CX.5
+Assert #{OB.1662: (AT actor CHIC-OUTFIT1 obj ......)} in CX.5
+Assert #{OB.1647: (RICH actor MOVIE-STAR1)} in CX.5
+Assert #{OB.1646: (POS-ATTITUDE obj MOVIE-STAR1......)} in CX.5
+Assert #{OB.1503: (MOVIE-STAR actor MOVIE-STAR1......)} in CX.5
+Assert #{OB.1412: (WEARING actor ME obj (NECKLACE...)......)} in CX.5
+Assert #{OB.1350: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.5
+Assert #{OB.1349: (RPROX actor MOVIE-STAR1 location ......)} in CX.5
+Assert #{OB.1348: (RPROX actor ME location LOS-ANGELES......)} in CX.5
+Assert #{OB.1347: (RPROX actor MY-JOB location ......)} in CX.5
+Assert #{OB.1346: (EMPLOYMENT actor ME MY-BOSS......)} in CX.5
+Assert #{OB.1200: (STAR actor MOVIE-STAR1 level ......)} in CX.5
+Assert #{OB.594: (KNOW actor ME obj NUART-LOCATION......)} in CX.5
+Assert #{OB.395: (KNOW actor ME obj HOME)} in CX.5
+Assert #{OB.394: (ADDRESS actor ME obj HOME)} in CX.5
+Assert #{OB.393: (AT actor ME obj HOME)} in CX.5
+Assert #{OB.376: (KNOW actor ME obj OUTSIDE)} in CX.5
+Assert #{OB.372: (AT actor MAIL1 obj OUTSIDE......)} in CX.5
+Assert #{OB.290: (AT actor NUART-THEATER obj ......)} in CX.5
+Assert #{OB.285: (ROMANTIC-INTEREST obj MOVIE-STAR1......)} in CX.5
+
+Creating initial reality context...
+#{CX.5: (CX)} --> #{CX.6: (CX)}
+Assert #{OB.241: (ENTERTAINMENT strength 0.1......)} in CX.6
+Assert #{OB.242: (LOVE-RECEIVING strength 0.1......)} in CX.6
+Assert #{FOOD-NEED: (FOOD strength 1.0)} in CX.6
+Assert #{MONEY-NEED: (MONEY strength 1.0)} in CX.6
+Assert #{OB.245: (POSSESSIONS strength 1.0)} in CX.6
+Assert #{OB.246: (SEX strength 1.0)} in CX.6
+Assert #{OB.247: (LOVE-GIVING strength 1.0)} in CX.6
+Assert #{OB.248: (COMPANIONSHIP strength 1.0......)} in CX.6
+State changes from SUSPENDED to DAYDREAMING
+Run inferences in #{CX.6: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEF-PERS-ATTR-PLAN1 BELIEF-PERS-ATTR-PLAN1 fired as inference in CX.6
+-------------------------------------------------------
+IF   person is STAR 
+THEN person BELIEVE person is STAR 
+-------------------------------------------------------
+
+?LEVEL = SOME-LEVEL
+?PERSON = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2205: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.6
+Assert #{OB.2207: (DEPENDENCY linked-from (STAR...)......)} in CX.6
+******************
+WELL-DRESSED-PLAN2 WELL-DRESSED-PLAN2 fired as inference in CX.6
+-------------------------------------------------------
+IF   self WEARING necklace 
+THEN self is WELL-DRESSED 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2209: (WELL-DRESSED actor ME)} in CX.6
+Assert #{OB.2210: (DEPENDENCY linked-from (WEARING...)......)} in CX.6
+******************
+LOVERS-THEME LOVERS-THEME fired as inference in CX.6
+-------------------------------------------------------
+IF   self not LOVERS with anyone 
+THEN ACTIVE-GOAL for LOVERS with some person 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.6: (CX)}
+Assert #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in CX.6
+==================================================
+ I want to be going out with someone.
+==================================================
+Add dependency from #{OB.2214: (POS-EMOTION strength 0.9)} to #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.6: (CX)}
+Assert #{OB.2215: (DEPENDENCY linked-from (POS-EMOTION...)......)} in CX.6
+Assert #{OB.2214: (POS-EMOTION strength 0.9)} in CX.6
+==================================================
+ I feel really interested in going out with
+ someone.
+==================================================
+Personal goal concern OB.2212: LOVERS motiv 0.9 status HALTED
+******************
+ENTERTAINMENT-THEME ENTERTAINMENT-THEME fired as inference in CX.6
+-------------------------------------------------------
+IF   level of satisfaction of ENTERTAINMENT need 
+     below threshold 
+THEN ACTIVE-GOAL for ENTERTAINMENT 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} in #{CX.6: (CX)}
+Assert #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} in CX.6
+==================================================
+ I want to be entertained.
+==================================================
+Add dependency from #{OB.2219: (POS-EMOTION strength 0.6)} to #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} in #{CX.6: (CX)}
+Assert #{OB.2220: (DEPENDENCY linked-from (POS-EMOTION...)......)} in CX.6
+Assert #{OB.2219: (POS-EMOTION strength 0.6)} in CX.6
+==================================================
+ I feel interested in being entertained.
+==================================================
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+Personal goal concern OB.2212: LOVERS motiv 0.9 status HALTED
+Running emotion-driven control loop...
+:Switching to new top-level goal #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+----------------------CX.6--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.5: (CX)}
+Run inferences in #{CX.6: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.6: (CX)}
+Running plans in #{CX.6: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} in #{CX.6: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2218: (ENTERTAINMENT strength (UPROC...)......)} in #{CX.6: (CX)}
+Order candidates 
+((#{ENTERTAINMENT-PLAN1: (RULE subgoal (M-MOVIE actor ......)......)}
+  (T (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{ENTERTAINMENT-PLAN1: (RULE subgoal (M-MOVIE actor ......)......)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} in #{CX.6: (CX)}
+#{CX.6: (CX)} --> #{CX.7: (CX)}
+Debugging being delayed for broadcast at a later time.
+ENTERTAINMENT-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.7: (CX)})
+:----------------------CX.7--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} in #{CX.6: (CX)}
+Broadcasting delayed debugs.
+******************
+ENTERTAINMENT-PLAN1 fired as plan 
+for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+in CX.6 sprouting CX.7
+-------------------------------------------------------
+IF   ACTIVE-GOAL for ENTERTAINMENT 
+THEN ACTIVE-GOAL for M-MOVIE with self 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2227: (ORDERING)} in CX.7
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} obj #{OB.2228: (M-MOVIE actor ME)} in #{CX.7: (CX)}
+Assert #{OB.2230: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.7
+Assert #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} in CX.7
+==================================================
+ I have to go see a movie.
+==================================================
+End of delayed broadcast.
+Run inferences in #{CX.7: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.7: (CX)}
+Running plans in #{CX.7: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} in #{CX.7: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2228: (M-MOVIE actor ME)} in #{CX.7: (CX)}
+Order candidates 
+((#{M-MOVIE-ALONE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+  (#{OB.393: (AT actor ME obj HOME)} (LOCATION1 #{HOME: (LOCATION name "home")})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{M-MOVIE-ALONE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)} for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} in #{CX.7: (CX)}
+#{CX.7: (CX)} --> #{CX.8: (CX)}
+Debugging being delayed for broadcast at a later time.
+M-MOVIE-ALONE-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.8: (CX)})
+:----------------------CX.8--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = #{OB.2243: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.7: (CX)}
+Broadcasting delayed debugs.
+******************
+M-MOVIE-ALONE-PLAN fired as plan 
+for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)}
+in CX.7 sprouting CX.8
+-------------------------------------------------------
+IF   ACTIVE-GOAL for M-MOVIE with self 
+THEN ACTIVE-GOAL to PTRANS to theater and 
+     ACTIVE-GOAL to MTRANS MOVIE from theater 
+     to self and 
+     ACTIVE-GOAL to PTRANS back to original location 
+-------------------------------------------------------
+
+?LOCATION1 = #{HOME: (LOCATION name "home")}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.2227 in CX.8
+Assert #{OB.2234: (ORDERING)} in CX.8
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} obj #{OB.2235: (AT actor ?THEATER obj ?LOCATION2......)} in #{CX.8: (CX)}
+Assert #{OB.2237: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.8
+Assert #{OB.2236: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in CX.8
+Activate subgoal for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} obj #{OB.2238: (PTRANS actor ME from HOME to ......)} in #{CX.8: (CX)}
+Assert #{OB.2240: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.8
+Assert #{OB.2239: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.8
+Activate subgoal for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} obj #{OB.2241: (MTRANS actor ME from ?THEATER......)} in #{CX.8: (CX)}
+Assert #{OB.2244: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.8
+Assert #{OB.2243: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.8
+==================================================
+ I have to watch a movie.
+==================================================
+Activate subgoal for #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} obj #{OB.2245: (PTRANS actor ME from ?LOCATION2......)} in #{CX.8: (CX)}
+Assert #{OB.2247: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.8
+Assert #{OB.2246: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.8
+End of delayed broadcast.
+Run inferences in #{CX.8: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.8: (CX)}
+Running plans in #{CX.8: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2236: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in #{CX.8: (CX)}
+Try fact plans
+#{CX.8: (CX)} --> #{CX.9: (CX)}
+Debugging being delayed for broadcast at a later time.
+Debugging resumed.
+Pruning possibilities from (#{CX.9: (CX)})
+:----------------------CX.9--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.8: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2234 in CX.9
+Assert #{OB.2251: (ORDERING)} in CX.9
+Fact plan #{OB.290: (AT actor NUART-THEATER obj ......)} found
+(AT actor NUART-THEATER obj ......)
+?LOCATION2 = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?THEATER = #{NUART-THEATER: (THEATER name "the Nuart")}
+******************
+Goal #{OB.2236: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} succeeds in #{CX.9: (CX)}
+Instantiating plan for OB.2217: ENTERTAINMENT
+Retract OB.2246 in CX.9
+Assert #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.9
+Retract OB.2247 in CX.9
+Assert #{OB.2254: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.9
+Retract OB.2243 in CX.9
+Assert #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.9
+Retract OB.2244 in CX.9
+Assert #{OB.2258: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.9
+Retract OB.2239 in CX.9
+Assert #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.9
+Retract OB.2240 in CX.9
+Assert #{OB.2261: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.9
+Retract OB.2236 in CX.9
+Assert #{OB.2262: (ACTIVE-GOAL obj (AT actor ......))} in CX.9
+Retract OB.2237 in CX.9
+Assert #{OB.2264: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.9
+Retract OB.2262 in CX.9
+Assert #{OB.2262: (SUCCEEDED-GOAL obj (AT actor ......)......)} in CX.9
+Assert #{OB.2265: (DEPENDENCY linked-from (AT...)......)} in CX.9
+End of delayed broadcast.
+Run inferences in #{CX.9: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.9: (CX)}
+Running plans in #{CX.9: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.9: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2260: (PTRANS actor ME from HOME to ......)} in #{CX.9: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (LOCATION1 #{HOME: (LOCATION name "home")}) (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.9: (CX)}
+#{CX.9: (CX)} --> #{CX.10: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Run plan for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.9: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2256: (MTRANS actor ME from NUART-THEATER......)} in #{CX.9: (CX)}
+Order candidates 
+((#{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+  (T (PHYS-OBJ #{NUART-THEATER: (THEATER name "the Nuart")})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)} for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.9: (CX)}
+#{CX.9: (CX)} --> #{CX.11: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-MOVIE-PLAN Debugging resumed.
+Run plan for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.9: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2253: (PTRANS actor ME from NUART-LOCATION......)} in #{CX.9: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{HOME: (LOCATION name "home")})
+   (LOCATION1 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.9: (CX)}
+#{CX.9: (CX)} --> #{CX.12: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.12: (CX)} #{CX.11: (CX)} #{CX.10: (CX)})
+:----------------------CX.10--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.9: (CX)}
+Broadcasting delayed debugs.
+******************
+PTRANS-PLAN fired as plan 
+for #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)}
+in CX.9 sprouting CX.10
+-------------------------------------------------------
+IF   ACTIVE-GOAL for person to PTRANS to location 
+THEN ACTIVE-GOAL for person to KNOW location 
+-------------------------------------------------------
+
+?FREE-OBJ = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?LOCATION2 = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?LOCATION1 = #{HOME: (LOCATION name "home")}
+?PERSON = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.2251 in CX.10
+Assert #{OB.2269: (ORDERING)} in CX.10
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} obj #{OB.2270: (KNOW actor ME obj NUART-LOCATION......)} in #{CX.10: (CX)}
+Assert #{OB.2272: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.10
+Assert #{OB.2271: (ACTIVE-GOAL obj (KNOW actor ......)......)} in CX.10
+End of delayed broadcast.
+******************
+Goal #{OB.2271: (ACTIVE-GOAL obj (KNOW actor ......)......)} succeeds in #{CX.10: (CX)}
+Retract OB.2271 in CX.10
+Assert #{OB.2286: (ACTIVE-GOAL obj (KNOW actor ......)......)} in CX.10
+Retract OB.2272 in CX.10
+Assert #{OB.2288: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.10
+Retract OB.2286 in CX.10
+Assert #{OB.2286: (SUCCEEDED-GOAL obj (KNOW actor ......)......)} in CX.10
+Assert #{OB.2289: (DEPENDENCY linked-from (KNOW...)......)} in CX.10
+Subgoals of #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} completed
+About to perform real action but not in performance mode
+Change status of OB.2217: ENTERTAINMENT to WAITINGRun inferences in #{CX.10: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+:Taking optional object or concept input
+Enter concepts in #{CX.6: (CX)}
+Parser> 
+End of parser input
+No more goals to run; switching to performance mode
+Change status of OB.2217: ENTERTAINMENT to RUNABLEState changes from DAYDREAMING to PERFORMANCE
+:----------------------CX.10--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.9: (CX)}
+Subgoals of #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.10: (CX)}
+******************
+Goal #{OB.2259: (ACTIVE-GOAL obj (PTRANS actor ......)......)} succeeds in #{CX.10: (CX)}
+Retract OB.2259 in CX.10
+Assert #{OB.2292: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.10
+Retract OB.2288 in CX.10
+Assert #{OB.2296: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.10
+Retract OB.2261 in CX.10
+Assert #{OB.2297: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.10
+Retract OB.2292 in CX.10
+Assert #{OB.2292: (SUCCEEDED-GOAL obj (PTRANS...)......)} in CX.10
+Assert #{OB.2293: (PTRANS actor ME from HOME to ......)} in CX.10
+==================================================
+ I go to the Nuart.
+==================================================
+Run inferences in #{CX.10: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+AT-PLAN AT-PLAN fired as inference in CX.10
+-------------------------------------------------------
+IF   person PTRANS from location1 to location2 
+THEN person AT location2 and 
+     delete person AT location1 
+-------------------------------------------------------
+
+?LOCATION2 = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?LOCATION1 = #{HOME: (LOCATION name "home")}
+?PERSON = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2298: (AT actor ME obj NUART-LOCATION......)} in CX.10
+Assert #{OB.2299: (DEPENDENCY linked-from (PTRANS...)......)} in CX.10
+Inference retract #{OB.2301: (AT actor ME obj HOME)} in #{CX.10: (CX)}
+Leafs = (#{OB.393: (AT actor ME obj HOME)})
+Retract OB.393 in CX.10
+Taking optional concept input
+Enter concepts in #{CX.10: (CX)}
+Parser> 
+Input: Harrison Ford is at the Nuart.
+Input received
+Assert #{OB.2304: (AT actor MOVIE-STAR1 obj NUART-LOCATION......)} in CX.10
+==================================================
+ Harrison Ford is at the Nuart.
+==================================================
+Parser> 
+End of parser input
+Concepts entered
+Run inferences in #{CX.10: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+VPROX-PLAN1 VPROX-PLAN1 fired as inference in CX.10
+-------------------------------------------------------
+IF   AT location of person 
+THEN VPROX person 
+-------------------------------------------------------
+
+?LOCATION = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?PERSON = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2307: (VPROX actor ME MOVIE-STAR1......)} in CX.10
+Assert #{OB.2308: (DEPENDENCY linked-from (AT...)......)} in CX.10
+Assert #{OB.2309: (DEPENDENCY linked-from (AT...)......)} in CX.10
+Rule intersection for OB.2212: LOVERS of length 6 verified
+Serendipity for OB.2212: LOVERS personal goal
+[OB.2315: (AG. (LOVERS ME MOVIE-STAR1)) EPISODE.6]
+  [OB.2587: (AG. (ACQUAINTED ME MOVIE-STAR1)) EPISODE.7]
+    [OB.2616: (AG. (M-CONVERSATION ME MOVIE-STAR1)) EPISODE.8]
+      [OB.2583: (AG. (MTRANS-ACCEPTABLE ME MOVIE-STAR1)) EPISODE.9]
+        [OB.2635: (AG. (MTRANS ME ME MOVIE-STAR1 (ACTIVE-GOAL (KNOW ME (TIME-OF-DAY))))) EPISODE.10]
+          [OB.2643: (AG. (VPROX MOVIE-STAR1 ME)) EPISODE.11]
+            [OB.2647: (AG. (AT MOVIE-STAR1 NUART-LOCATION))]
+            [OB.2650: (AG. (AT ME NUART-LOCATION))]
+      [OB.2622: (AG. (MTRANS ME ME MOVIE-STAR1 (INTRODUCTION)))]
+      [OB.2628: (AG. (MTRANS MOVIE-STAR1 MOVIE-STAR1 ME (INTRODUCTION)))]
+  [OB.2591: (AG. (ROMANTIC-INTEREST MOVIE-STAR1))]
+  [OB.2596: (AG. (BELIEVE MOVIE-STAR1 (ACTIVE-GOAL (LOVERS ME MOVIE-STAR1))))]
+  [OB.2603: (AG. (M-DATE ME MOVIE-STAR1))]
+  [OB.2610: (AG. (M-AGREE ME MOVIE-STAR1 obj (LOVERS ME MOVIE-STAR1)))]
+#{CX.10: (CX)} --> #{CX.14: (CX)}
+Gc plans for (#{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}) in #{CX.14: (CX)}
+Generate surprise emotion
+Assert #{OB.2654: (POS-SURPRISE strength 0.25......)} in CX.14
+==================================================
+ What do you know!
+==================================================
+Divert strength of #{OB.2654: (POS-SURPRISE strength 0.25......)} to #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+Null out charge of #{OB.2654: (POS-SURPRISE strength 0.25......)}
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+Personal goal concern OB.2212: LOVERS motiv 1.15 status HALTED
+Change status of OB.2212: LOVERS to RUNABLERunning p-goals in #{CX.10: (CX)}
+Running plans in #{CX.10: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.10: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2256: (MTRANS actor ME from NUART-THEATER......)} in #{CX.10: (CX)}
+Order candidates 
+((#{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+  (T (PHYS-OBJ #{NUART-THEATER: (THEATER name "the Nuart")})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)} for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.10: (CX)}
+#{CX.10: (CX)} --> #{CX.15: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-MOVIE-PLAN Debugging resumed.
+Run plan for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.10: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2253: (PTRANS actor ME from NUART-LOCATION......)} in #{CX.10: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{HOME: (LOCATION name "home")})
+   (LOCATION1 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.10: (CX)}
+#{CX.10: (CX)} --> #{CX.16: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.16: (CX)} #{CX.15: (CX)} #{CX.14: (CX)})
+:Switching to new top-level goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+----------------------CX.14--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2654: (POS-SURPRISE strength 0.0)} in #{CX.10: (CX)}
+setting last sprout concept = #{OB.2654: (POS-SURPRISE strength 0.0)} in #{CX.9: (CX)}
+setting last sprout concept = #{OB.2654: (POS-SURPRISE strength 0.0)} in #{CX.8: (CX)}
+Run inferences in #{CX.14: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.14: (CX)}
+Running plans in #{CX.14: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.14: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.14: (CX)}
+#{CX.14: (CX)} --> #{CX.17: (CX)}
+Debugging being delayed for broadcast at a later time.
+LOVERS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.17: (CX)})
+:----------------------CX.17--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in #{CX.14: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2269 in CX.17
+Assert #{OB.2676: (ORDERING)} in CX.17
+Target-bd:
+?MALE-PERSON = #{OB.714: ?OTHER:PERSON}
+?OTHER = #{OB.686: ?MALE-PERSON:MALE-PERSON}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Bd:
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Instantiating plan for OB.2212: LOVERS
+Replace obj of #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} with (T (MALE-PERSON #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}))
+Apply suggested episode EPISODE.6
+******************
+LOVERS-PLAN fired as analogical plan 
+for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+in CX.14 sprouting CX.17
+-------------------------------------------------------
+IF   ACTIVE-GOAL for LOVERS with person 
+THEN ACTIVE-GOAL for ACQUAINTED with person and 
+     ACTIVE-GOAL for ROMANTIC-INTEREST in person 
+     and 
+     ACTIVE-GOAL for person to have ACTIVE-GOAL 
+     of LOVERS with self and 
+     ACTIVE-GOAL for M-DATE with self and person 
+     and 
+     ACTIVE-GOAL for self and person to M-AGREE 
+     to LOVERS 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?MALE-PERSON = #{OB.714: ?OTHER:PERSON}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} obj #{OB.2678: (ACQUAINTED actor ME MOVIE-STAR1......)} in #{CX.17: (CX)}
+Assert #{OB.2680: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Assert #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in CX.17
+==================================================
+ Harrison Ford and I have to be acquainted.
+==================================================
+Activate subgoal for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} obj #{OB.2683: (ROMANTIC-INTEREST obj MOVIE-STAR1......)} in #{CX.17: (CX)}
+Analogical plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.17: (CX)} will bottom out
+Assert #{OB.2685: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Assert #{OB.2684: (ACTIVE-GOAL obj (ROMANTIC-INTEREST...)......)} in CX.17
+Activate subgoal for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} obj #{OB.2686: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.17: (CX)}
+Analogical plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.17: (CX)} will bottom out
+Assert #{OB.2690: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Assert #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.17
+==================================================
+ He has to want to be going out with me.
+==================================================
+Activate subgoal for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} obj #{OB.2691: (M-DATE actor ME MOVIE-STAR1......)} in #{CX.17: (CX)}
+Analogical plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.17: (CX)} will bottom out
+Assert #{OB.2693: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Assert #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} in CX.17
+==================================================
+ He and I have to go out on a date.
+==================================================
+Activate subgoal for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} obj #{OB.2694: (M-AGREE actor ME MOVIE-STAR1......)} in #{CX.17: (CX)}
+Analogical plan for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.17: (CX)} will bottom out
+Assert #{OB.2697: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Assert #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in CX.17
+==================================================
+ He and I have to agree to be going out with him.
+==================================================
+End of delayed broadcast.
+******************
+Goal #{OB.2684: (ACTIVE-GOAL obj (ROMANTIC-INTEREST...)......)} succeeds in #{CX.17: (CX)}
+Retract OB.2684 in CX.17
+Assert #{OB.2698: (ACTIVE-GOAL obj (ROMANTIC-INTEREST...)......)} in CX.17
+Retract OB.2685 in CX.17
+Assert #{OB.2700: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.17
+Retract OB.2698 in CX.17
+Assert #{OB.2698: (SUCCEEDED-GOAL obj (ROMANTIC-INTEREST...)......)} in CX.17
+Assert #{OB.2701: (DEPENDENCY linked-from (ROMANTIC-INTEREST...)......)} in CX.17
+Run inferences in #{CX.17: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.17: (CX)}
+Running plans in #{CX.17: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.17: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2686: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.17: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{LOVERS-THEME-PLAN: (RULE subgoal (RSEQ obj (ROMANTIC-INTEREST...) ......)......)} for #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.17: (CX)}
+#{CX.17: (CX)} --> #{CX.18: (CX)}
+Debugging being delayed for broadcast at a later time.
+LOVERS-THEME-PLAN Debugging resumed.
+Run plan for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in #{CX.17: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in #{CX.17: (CX)}
+#{CX.17: (CX)} --> #{CX.19: (CX)}
+Debugging being delayed for broadcast at a later time.
+ACQUAINTED-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.19: (CX)} #{CX.18: (CX)})
+:----------------------CX.18--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.17: (CX)}
+Broadcasting delayed debugs.
+******************
+LOVERS-THEME-PLAN fired as backward vicarious plan 
+for #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)}
+in CX.17 sprouting CX.18
+-------------------------------------------------------
+IF   ACTIVE-GOAL for self to have ACTIVE-GOAL 
+     of LOVERS with person 
+THEN ACTIVE-GOAL for ROMANTIC-INTEREST in person 
+     and 
+     ACTIVE-GOAL for not LOVERS with anyone 
+-------------------------------------------------------
+
+?FEMALE-PERSON = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+Retract OB.2676 in CX.18
+Assert #{OB.2705: (ORDERING)} in CX.18
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.18: (CX)}
+Assert #{OB.2709: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.18
+Assert #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.18
+Activate subgoal for #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.18: (CX)}
+Assert #{OB.2714: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.18
+Assert #{OB.2713: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.18
+End of delayed broadcast.
+Run inferences in #{CX.18: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.18: (CX)}
+Running plans in #{CX.18: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.18: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.18: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.18: (CX)}
+#{CX.18: (CX)} --> #{CX.20: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Run plan for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in #{CX.18: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in #{CX.18: (CX)}
+#{CX.18: (CX)} --> #{CX.21: (CX)}
+Debugging being delayed for broadcast at a later time.
+ACQUAINTED-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.21: (CX)} #{CX.20: (CX)})
+:----------------------CX.21--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.18: (CX)}
+setting last sprout concept = #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.17: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2705 in CX.21
+Assert #{OB.2733: (ORDERING)} in CX.21
+Target-bd:
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Bd:
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Apply suggested episode EPISODE.7
+******************
+ACQUAINTED-PLAN fired as analogical plan 
+for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)}
+in CX.18 sprouting CX.21
+-------------------------------------------------------
+IF   ACTIVE-GOAL to be ACQUAINTED with person 
+THEN ACTIVE-GOAL for M-CONVERSATION with person 
+-------------------------------------------------------
+
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} obj #{OB.2734: (M-CONVERSATION actor ME MOVIE-STAR1......)} in #{CX.21: (CX)}
+Assert #{OB.2736: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.21
+Assert #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in CX.21
+==================================================
+ I have to have a conversation with him.
+==================================================
+End of delayed broadcast.
+Run inferences in #{CX.21: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.21: (CX)}
+Running plans in #{CX.21: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.21: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.21: (CX)}
+#{CX.21: (CX)} --> #{CX.22: (CX)}
+Debugging being delayed for broadcast at a later time.
+M-CONVERSATION-PLAN Debugging resumed.
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.21: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.21: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.21: (CX)}
+#{CX.21: (CX)} --> #{CX.23: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.23: (CX)} #{CX.22: (CX)})
+:----------------------CX.22--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} in #{CX.21: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2733 in CX.22
+Assert #{OB.2740: (ORDERING)} in CX.22
+Target-bd:
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Bd:
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Apply suggested episode EPISODE.8
+******************
+M-CONVERSATION-PLAN fired as analogical plan 
+for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)}
+in CX.21 sprouting CX.22
+-------------------------------------------------------
+IF   ACTIVE-GOAL for M-CONVERSATION between person1 
+     and person2 
+THEN ACTIVE-GOAL for MTRANS-ACCEPTABLE between 
+     person1 and person2 and 
+     ACTIVE-GOAL for person1 to MTRANS INTRODUCTION 
+     to person2 and 
+     person2 to MTRANS INTRODUCTION to person1 
+-------------------------------------------------------
+
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} obj #{OB.2741: (MTRANS-ACCEPTABLE actor ME......)} in #{CX.22: (CX)}
+Assert #{OB.2743: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.22
+Assert #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} in CX.22
+==================================================
+ I have to break the ice with him.
+==================================================
+Activate subgoal for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} obj #{OB.2744: (MTRANS actor ME from ME to ......)} in #{CX.22: (CX)}
+Analogical plan for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.22: (CX)} will bottom out
+Assert #{OB.2747: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.22
+Assert #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.22
+Activate subgoal for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} obj #{OB.2748: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.22: (CX)}
+Analogical plan for #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in #{CX.22: (CX)} will bottom out
+Assert #{OB.2751: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.22
+Assert #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.22
+End of delayed broadcast.
+Run inferences in #{CX.22: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.22: (CX)}
+Running plans in #{CX.22: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} in #{CX.22: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} in #{CX.22: (CX)}
+#{CX.22: (CX)} --> #{CX.24: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-ACCEPTABLE-INF2 Debugging resumed.
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.22: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.22: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.22: (CX)}
+#{CX.22: (CX)} --> #{CX.25: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.25: (CX)} #{CX.24: (CX)})
+:----------------------CX.24--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.22: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2740 in CX.24
+Assert #{OB.2765: (ORDERING)} in CX.24
+Target-bd:
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Bd:
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Apply suggested episode EPISODE.9
+******************
+MTRANS-ACCEPTABLE-INF2 fired as analogical plan 
+for #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)}
+in CX.22 sprouting CX.24
+-------------------------------------------------------
+IF   ACTIVE-GOAL for MTRANS-ACCEPTABLE between 
+     self and person 
+THEN ACTIVE-GOAL for self to MTRANS to person 
+     that self has ACTIVE-GOAL to KNOW the time 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} obj #{OB.2766: (MTRANS actor ME from ME to ......)} in #{CX.24: (CX)}
+Assert #{OB.2771: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.24
+Assert #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.24
+End of delayed broadcast.
+Run inferences in #{CX.24: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.24: (CX)}
+Running plans in #{CX.24: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.24: (CX)}
+Try existing analogical plans
+Run analogical plan for #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.24: (CX)}
+#{CX.24: (CX)} --> #{CX.26: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.24: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.24: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.24: (CX)}
+#{CX.24: (CX)} --> #{CX.27: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.27: (CX)} #{CX.26: (CX)})
+:----------------------CX.26--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.24: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2765 in CX.26
+Assert #{OB.2785: (ORDERING)} in CX.26
+Target-bd:
+?MENTAL-STATE = #{OB.2767: (ACTIVE-GOAL obj (KNOW actor ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Bd:
+?MENTAL-STATE = #{OB.2637: (ACTIVE-GOAL obj (KNOW actor ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Apply suggested episode EPISODE.10
+******************
+MTRANS-PLAN2 fired as analogical plan 
+for #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.24 sprouting CX.26
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.2767: (ACTIVE-GOAL obj (KNOW actor ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.2786: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.26: (CX)}
+Assert #{OB.2788: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Assert #{OB.2787: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.26
+End of delayed broadcast.
+******************
+Goal #{OB.2787: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.26: (CX)}
+Retract OB.2787 in CX.26
+Assert #{OB.2799: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.26
+Retract OB.2788 in CX.26
+Assert #{OB.2801: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Retract OB.2799 in CX.26
+Assert #{OB.2799: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.26
+Assert #{OB.2802: (DEPENDENCY linked-from (VPROX...)......)} in CX.26
+Subgoals of #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.26: (CX)}
+******************
+Goal #{OB.2770: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.26: (CX)}
+Retract OB.2770 in CX.26
+Assert #{OB.2803: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.26
+Retract OB.2801 in CX.26
+Assert #{OB.2808: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Retract OB.2771 in CX.26
+Assert #{OB.2809: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Retract OB.2803 in CX.26
+Assert #{OB.2803: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.26
+Assert #{OB.2804: (MTRANS actor ME from ME to ......)} in CX.26
+==================================================
+ I tell him I would like to know the time.
+==================================================
+Run inferences in #{CX.26: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+NEG-ATTITUDE-INF NEG-ATTITUDE-INF fired as inference in CX.26
+-------------------------------------------------------
+IF   person is RICH and 
+     self is AT same location as person and 
+     self not WELL-DRESSED 
+THEN person has NEG-ATTITUDE toward self 
+-------------------------------------------------------
+
+?ANYTHING = #{OB.2805: (ACTIVE-GOAL obj (KNOW actor ......)......)}
+?LOCATION = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2810: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.26
+==================================================
+ He does not think much of me.
+==================================================
+Assert #{OB.2812: (DEPENDENCY linked-from (RICH...)......)} in CX.26
+Assert #{OB.2813: (DEPENDENCY linked-from (AT...)......)} in CX.26
+Assert #{OB.2814: (DEPENDENCY linked-from (AT...)......)} in CX.26
+Assert #{OB.2815: (DEPENDENCY linked-from (MTRANS...)......)} in CX.26
+Assert #{OB.2816: (NOT obj (WELL-DRESSED actor ......)......)} in CX.26
+Assert #{OB.2818: (DEPENDENCY linked-from (NOT...)......)} in CX.26
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.26
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.2805: (ACTIVE-GOAL obj (KNOW actor ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2820: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.26
+Assert #{OB.2822: (DEPENDENCY linked-from (MTRANS...)......)} in CX.26
+******************
+MTRANS-ACCEPTABLE-INF2 MTRANS-ACCEPTABLE-INF2 fired as inference in CX.26
+-------------------------------------------------------
+IF   self MTRANS to person that self has ACTIVE-GOAL 
+     to KNOW the time 
+THEN MTRANS-ACCEPTABLE between self and person 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2824: (MTRANS-ACCEPTABLE actor ME......)} in CX.26
+Assert #{OB.2825: (DEPENDENCY linked-from (MTRANS...)......)} in CX.26
+******************
+SOCIAL-ESTEEM-FAILURE SOCIAL-ESTEEM-FAILURE fired as inference in CX.26
+-------------------------------------------------------
+IF   person has NEG-ATTITUDE toward self and 
+     self has ROMANTIC-INTEREST toward person 
+THEN FAILED-GOAL of SOCIAL-ESTEEM goal for person 
+     to have POS-ATTITUDE toward self 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)} in CX.26
+==================================================
+ I fail at him liking me.
+==================================================
+Assert #{OB.2832: (DEPENDENCY linked-from (BELIEVE...)......)} in CX.26
+Assert #{OB.2833: (DEPENDENCY linked-from (ROMANTIC-INTEREST...)......)} in CX.26
+Personal goal outcome #{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)} in #{CX.26: (CX)}
+Emotional responses for #{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)} in #{CX.26: (CX)}
+Add dependency from #{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)} to #{OB.2835: (NEG-EMOTION)} in #{CX.26: (CX)}
+Assert #{OB.2836: (DEPENDENCY linked-from (FAILED-GOAL...)......)} in CX.26
+Assert #{OB.2835: (NEG-EMOTION strength 0.95)} in CX.26
+==================================================
+ I feel really embarrassed.
+==================================================
+******************
+RATIONALIZATION-THEME RATIONALIZATION-THEME fired as inference in CX.26
+-------------------------------------------------------
+IF   NEG-EMOTION of sufficient strength resulting 
+     from a FAILED-GOAL 
+THEN ACTIVE-GOAL for RATIONALIZATION of failure 
+-------------------------------------------------------
+
+?NEG-EMOTION = #{OB.2835: (NEG-EMOTION strength 0.95)}
+?FAILED-GOAL = #{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.2838: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.26: (CX)}
+Assert #{OB.2838: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in CX.26
+Add dependency from #{OB.2835: (NEG-EMOTION strength 0.95)} to #{OB.2838: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.26: (CX)}
+Assert #{OB.2840: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.26
+Assert #{OB.2835: (NEG-EMOTION strength 0.95)} in CX.26
+Assert: #{OB.2835: (NEG-EMOTION strength 0.95)} already true in #{CX.26: (CX)}
+Add dependency from #{OB.2842: (NEG-EMOTION strength 0.06)} to #{OB.2838: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.26: (CX)}
+Assert #{OB.2843: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.26
+Assert #{OB.2842: (NEG-EMOTION strength 0.06)} in CX.26
+#{CX.26: (CX)} --> #{CX.28: (CX)}
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+Personal goal concern OB.2212: LOVERS motiv 1.15 status RUNABLE
+Taking optional concept input
+Enter concepts in #{CX.26: (CX)}
+Parser> 
+End of parser input
+******************
+Goal #{OB.2742: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} succeeds in #{CX.26: (CX)}
+Retract OB.2742 in CX.26
+Assert #{OB.2852: (ACTIVE-GOAL obj (MTRANS-ACCEPTABLE...)......)} in CX.26
+Retract OB.2809 in CX.26
+Assert #{OB.2854: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Retract OB.2743 in CX.26
+Assert #{OB.2855: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.26
+Retract OB.2852 in CX.26
+Assert #{OB.2852: (SUCCEEDED-GOAL obj (MTRANS-ACCEPTABLE...)......)} in CX.26
+Assert #{OB.2856: (DEPENDENCY linked-from (MTRANS-ACCEPTABLE...)......)} in CX.26
+Subgoals of #{OB.2852: (SUCCEEDED-GOAL obj (MTRANS-ACCEPTABLE...)......)} completed
+Run inferences in #{CX.26: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.26: (CX)}
+Running plans in #{CX.26: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.26: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2744: (MTRANS actor ME from ME to ......)} in #{CX.26: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.2745: (INTRODUCTION)})
+   (PERSON2 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (PERSON1 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.26: (CX)}
+#{CX.26: (CX)} --> #{CX.29: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.26: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.26: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.26: (CX)}
+#{CX.26: (CX)} --> #{CX.30: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.30: (CX)} #{CX.29: (CX)} #{CX.28: (CX)})
+:----------------------CX.29--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.26: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.26 sprouting CX.29
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.2745: (INTRODUCTION)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.2785 in CX.29
+Assert #{OB.2862: (ORDERING)} in CX.29
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.2863: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.29: (CX)}
+Assert #{OB.2865: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.29
+Assert #{OB.2864: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.29
+End of delayed broadcast.
+******************
+Goal #{OB.2864: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.29: (CX)}
+Retract OB.2864 in CX.29
+Assert #{OB.2876: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.29
+Retract OB.2865 in CX.29
+Assert #{OB.2878: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.29
+Retract OB.2876 in CX.29
+Assert #{OB.2876: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.29
+Assert #{OB.2879: (DEPENDENCY linked-from (VPROX...)......)} in CX.29
+Subgoals of #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.29: (CX)}
+******************
+Goal #{OB.2746: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.29: (CX)}
+Retract OB.2746 in CX.29
+Assert #{OB.2880: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.29
+Retract OB.2878 in CX.29
+Assert #{OB.2883: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.29
+Retract OB.2747 in CX.29
+Assert #{OB.2884: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.29
+Retract OB.2880 in CX.29
+Assert #{OB.2880: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.29
+Assert #{OB.2881: (MTRANS actor ME from ME to ......)} in CX.29
+==================================================
+ I introduce myself to him.
+==================================================
+Run inferences in #{CX.29: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.29
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.2882: (INTRODUCTION)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2889: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.29
+Assert #{OB.2891: (DEPENDENCY linked-from (MTRANS...)......)} in CX.29
+Taking optional concept input
+Enter concepts in #{CX.29: (CX)}
+Parser> 
+End of parser input
+Running p-goals in #{CX.29: (CX)}
+Running plans in #{CX.29: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.29: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2748: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.29: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.2749: (INTRODUCTION)}) (PERSON2 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (PERSON1 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.29: (CX)}
+#{CX.29: (CX)} --> #{CX.31: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.29: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.29: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.29: (CX)}
+#{CX.29: (CX)} --> #{CX.32: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.32: (CX)} #{CX.31: (CX)})
+:----------------------CX.31--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.29: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.29 sprouting CX.31
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.2749: (INTRODUCTION)}
+?PERSON2 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON1 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.2862 in CX.31
+Assert #{OB.2900: (ORDERING)} in CX.31
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.2901: (VPROX actor ME MOVIE-STAR1......)} in #{CX.31: (CX)}
+Assert #{OB.2903: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Assert #{OB.2902: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.31
+End of delayed broadcast.
+******************
+Goal #{OB.2902: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.31: (CX)}
+Retract OB.2902 in CX.31
+Assert #{OB.2914: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.31
+Retract OB.2903 in CX.31
+Assert #{OB.2916: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2914 in CX.31
+Assert #{OB.2914: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.31
+Assert #{OB.2917: (DEPENDENCY linked-from (VPROX...)......)} in CX.31
+Subgoals of #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform other action #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.31: (CX)}
+Enter concepts in #{CX.31: (CX)}
+Parser> 
+Input: He introduces himself to me.
+Input received
+Assert #{OB.2918: (MTRANS actor MOVIE-STAR1 from ......)} in CX.31
+==================================================
+ He introduces himself to me.
+==================================================
+Parser> 
+End of parser input
+******************
+Goal #{OB.2750: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.31: (CX)}
+Retract OB.2750 in CX.31
+Assert #{OB.2919: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.31
+Retract OB.2916 in CX.31
+Assert #{OB.2922: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2751 in CX.31
+Assert #{OB.2923: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2919 in CX.31
+Assert #{OB.2919: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.31
+Assert #{OB.2924: (DEPENDENCY linked-from (MTRANS...)......)} in CX.31
+Run inferences in #{CX.31: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.31
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.296: (INTRODUCTION)}
+?PERSON2 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON1 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2929: (BELIEVE actor ME obj (BELIEVE...)......)} in CX.31
+Assert #{OB.2931: (DEPENDENCY linked-from (MTRANS...)......)} in CX.31
+******************
+M-CONVERSATION-PLAN M-CONVERSATION-PLAN fired as inference in CX.31
+-------------------------------------------------------
+IF   MTRANS-ACCEPTABLE between person1 and person2 
+     and 
+     person1 MTRANS INTRODUCTION to person1 and 
+     person2 MTRANS INTRODUCTION to person1 
+THEN M-CONVERSATION between person1 and person2 
+-------------------------------------------------------
+
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2934: (M-CONVERSATION actor ME MOVIE-STAR1......)} in CX.31
+Assert #{OB.2935: (DEPENDENCY linked-from (MTRANS-ACCEPTABLE...)......)} in CX.31
+Assert #{OB.2936: (DEPENDENCY linked-from (MTRANS...)......)} in CX.31
+Assert #{OB.2937: (DEPENDENCY linked-from (MTRANS...)......)} in CX.31
+******************
+ACQUAINTED-PLAN ACQUAINTED-PLAN fired as inference in CX.31
+-------------------------------------------------------
+IF   M-CONVERSATION with person 
+THEN ACQUAINTED with person 
+-------------------------------------------------------
+
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.2939: (ACQUAINTED actor ME MOVIE-STAR1......)} in CX.31
+Assert #{OB.2940: (DEPENDENCY linked-from (M-CONVERSATION...)......)} in CX.31
+******************
+Goal #{OB.2735: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} succeeds in #{CX.31: (CX)}
+Retract OB.2735 in CX.31
+Assert #{OB.2950: (ACTIVE-GOAL obj (M-CONVERSATION...)......)} in CX.31
+Retract OB.2855 in CX.31
+Assert #{OB.2952: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2884 in CX.31
+Assert #{OB.2953: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2923 in CX.31
+Assert #{OB.2954: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2736 in CX.31
+Assert #{OB.2955: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2950 in CX.31
+Assert #{OB.2950: (SUCCEEDED-GOAL obj (M-CONVERSATION...)......)} in CX.31
+Assert #{OB.2956: (DEPENDENCY linked-from (M-CONVERSATION...)......)} in CX.31
+Subgoals of #{OB.2950: (SUCCEEDED-GOAL obj (M-CONVERSATION...)......)} completed
+******************
+Goal #{OB.2679: (ACTIVE-GOAL obj (ACQUAINTED...)......)} succeeds in #{CX.31: (CX)}
+Retract OB.2679 in CX.31
+Assert #{OB.2957: (ACTIVE-GOAL obj (ACQUAINTED...)......)} in CX.31
+Retract OB.2955 in CX.31
+Assert #{OB.2959: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2680 in CX.31
+Assert #{OB.2960: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.31
+Retract OB.2957 in CX.31
+Assert #{OB.2957: (SUCCEEDED-GOAL obj (ACQUAINTED...)......)} in CX.31
+==================================================
+ I succeed at him and me being acquainted.
+==================================================
+Assert #{OB.2961: (DEPENDENCY linked-from (ACQUAINTED...)......)} in CX.31
+Subgoals of #{OB.2957: (SUCCEEDED-GOAL obj (ACQUAINTED...)......)} completed
+Run inferences in #{CX.31: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.31: (CX)}
+Running plans in #{CX.31: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.31: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2707: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.31: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{ROMANTIC-INTEREST-PLAN1: (RULE subgoal (RSEQ obj (ATTRACTIVE...) ......)......)} for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.31: (CX)}
+#{CX.31: (CX)} --> #{CX.33: (CX)}
+Debugging being delayed for broadcast at a later time.
+ROMANTIC-INTEREST-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.33: (CX)})
+:----------------------CX.33--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.31: (CX)}
+Broadcasting delayed debugs.
+******************
+ROMANTIC-INTEREST-PLAN1 fired as backward vicarious plan 
+for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)}
+in CX.31 sprouting CX.33
+-------------------------------------------------------
+IF   ACTIVE-GOAL to have ROMANTIC-INTEREST in 
+     person 
+THEN ACTIVE-GOAL to have POS-ATTITUDE toward person 
+     and 
+     person to be ATTRACTIVE 
+-------------------------------------------------------
+
+?OTHER = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+Retract OB.2900 in CX.33
+Assert #{OB.2971: (ORDERING)} in CX.33
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.33: (CX)}
+Assert #{OB.2975: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.33
+Assert #{OB.2974: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.33
+Activate subgoal for #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.2977: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.33: (CX)}
+Assert #{OB.2979: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.33
+Assert #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.33
+End of delayed broadcast.
+Run inferences in #{CX.33: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.33: (CX)}
+Running plans in #{CX.33: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2974: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.33: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.33: (CX)}
+Order candidates NIL
+Try believe others
+Try subgoal relaxation
+#{CX.33: (CX)} --> #{CX.34: (CX)}
+Debugging being delayed for broadcast at a later time.
+Debugging resumed.
+Pruning possibilities from (#{CX.34: (CX)})
+:----------------------CX.34--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.33: (CX)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.31: (CX)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.29: (CX)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.26: (CX)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.24: (CX)}
+setting last sprout concept = #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.22: (CX)}
+Broadcasting delayed debugs.
+Retract OB.2971 in CX.34
+Assert #{OB.2989: (ORDERING)} in CX.34
+Subgoal relaxation, #{OB.2974: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds
+
+Assert #{OB.2973: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.34
+==================================================
+ Maybe he thinks I am cute.
+==================================================
+******************
+Goal #{OB.2974: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.34: (CX)}
+Retract OB.2974 in CX.34
+Assert #{OB.2990: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.34
+Retract OB.2975 in CX.34
+Assert #{OB.2993: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.34
+Retract OB.2990 in CX.34
+Assert #{OB.2990: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.34
+End of delayed broadcast.
+Run inferences in #{CX.34: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.34: (CX)}
+Running plans in #{CX.34: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.34: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2977: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.34: (CX)}
+Order candidates NIL
+Try believe others
+Run generic plan #{POS-ATTITUDE-PLAN3: (RULE subgoal (BELIEVE actor ......)......)} for #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.34: (CX)}
+#{CX.34: (CX)} --> #{CX.35: (CX)}
+Debugging being delayed for broadcast at a later time.
+POS-ATTITUDE-PLAN3 Debugging resumed.
+Run generic plan #{POS-ATTITUDE-PLAN2: (RULE subgoal (BELIEVE actor ......)......)} for #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.34: (CX)}
+#{CX.34: (CX)} --> #{CX.36: (CX)}
+Debugging being delayed for broadcast at a later time.
+POS-ATTITUDE-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.36: (CX)} #{CX.35: (CX)})
+:----------------------CX.36--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.34: (CX)}
+Broadcasting delayed debugs.
+******************
+POS-ATTITUDE-PLAN2 fired as backward vicarious plan 
+for #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)}
+in CX.34 sprouting CX.36
+-------------------------------------------------------
+IF   ACTIVE-GOAL to have POS-ATTITUDE toward person 
+THEN ACTIVE-GOAL for person to have POS-ATTITUDE 
+     toward self MOVIES 
+-------------------------------------------------------
+
+?OTHER = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+Retract OB.2989 in CX.36
+Assert #{OB.3011: (ORDERING)} in CX.36
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.3015: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.36: (CX)}
+Assert #{OB.3017: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.36
+Assert #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.36
+End of delayed broadcast.
+Run inferences in #{CX.36: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.36: (CX)}
+Running plans in #{CX.36: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.36: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.3015: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.36: (CX)}
+Order candidates 
+((#{BELIEVE-PLAN1: (RULE subgoal (MTRANS actor ......)......)}
+  (T (MENTAL-STATE #{OB.3013: (POS-ATTITUDE obj (MOVIES obj ......)......)})
+   (PERSON1 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (PERSON2 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{BELIEVE-PLAN1: (RULE subgoal (MTRANS actor ......)......)} for #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.36: (CX)}
+#{CX.36: (CX)} --> #{CX.37: (CX)}
+Debugging being delayed for broadcast at a later time.
+BELIEVE-PLAN1 Debugging resumed.
+Pruning possibilities from (#{CX.37: (CX)})
+:----------------------CX.37--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.36: (CX)}
+Broadcasting delayed debugs.
+******************
+BELIEVE-PLAN1 fired as plan 
+for #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)}
+in CX.36 sprouting CX.37
+-------------------------------------------------------
+IF   ACTIVE-GOAL for person to BELIEVE self mental 
+     state 
+THEN ACTIVE-GOAL to MTRANS mental state to person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3013: (POS-ATTITUDE obj (MOVIES obj ......)......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3011 in CX.37
+Assert #{OB.3027: (ORDERING)} in CX.37
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} obj #{OB.3028: (MTRANS actor ME from ME to ......)} in #{CX.37: (CX)}
+Assert #{OB.3030: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.37
+Assert #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.37
+End of delayed broadcast.
+Run inferences in #{CX.37: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.37: (CX)}
+Running plans in #{CX.37: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.37: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.3028: (MTRANS actor ME from ME to ......)} in #{CX.37: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.3013: (POS-ATTITUDE obj (MOVIES obj ......)......)})
+   (PERSON2 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (PERSON1 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.37: (CX)}
+#{CX.37: (CX)} --> #{CX.38: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.38: (CX)})
+:----------------------CX.38--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.37: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.37 sprouting CX.38
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3013: (POS-ATTITUDE obj (MOVIES obj ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3027 in CX.38
+Assert #{OB.3040: (ORDERING)} in CX.38
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3041: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.38: (CX)}
+Assert #{OB.3043: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Assert #{OB.3042: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.38
+End of delayed broadcast.
+******************
+Goal #{OB.3042: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.38: (CX)}
+Retract OB.3042 in CX.38
+Assert #{OB.3044: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.38
+Retract OB.3043 in CX.38
+Assert #{OB.3046: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3044 in CX.38
+Assert #{OB.3044: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.38
+Assert #{OB.3047: (DEPENDENCY linked-from (VPROX...)......)} in CX.38
+Subgoals of #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.38: (CX)}
+******************
+Goal #{OB.3029: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.38: (CX)}
+Retract OB.3029 in CX.38
+Assert #{OB.3048: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.38
+Retract OB.3046 in CX.38
+Assert #{OB.3051: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3030 in CX.38
+Assert #{OB.3052: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3048 in CX.38
+Assert #{OB.3048: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.38
+Assert #{OB.3049: (MTRANS actor ME from ME to ......)} in CX.38
+==================================================
+ I tell him I like his movies.
+==================================================
+Run inferences in #{CX.38: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.38
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3050: (POS-ATTITUDE obj (MOVIES obj ......)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3059: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.38
+Assert #{OB.3061: (DEPENDENCY linked-from (MTRANS...)......)} in CX.38
+Taking optional concept input
+Enter concepts in #{CX.38: (CX)}
+Parser> 
+End of parser input
+******************
+Goal #{OB.3016: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.38: (CX)}
+Retract OB.3016 in CX.38
+Assert #{OB.3073: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.38
+Retract OB.3052 in CX.38
+Assert #{OB.3077: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3017 in CX.38
+Assert #{OB.3078: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3073 in CX.38
+Assert #{OB.3073: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.38
+Assert #{OB.3079: (DEPENDENCY linked-from (BELIEVE...)......)} in CX.38
+Subgoals of #{OB.3073: (SUCCEEDED-GOAL obj (BELIEVE...)......)} completed
+Subgoals of #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} completed
+******************
+Goal #{OB.2978: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.38: (CX)}
+Retract OB.2978 in CX.38
+Assert #{OB.3080: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.38
+Retract OB.3078 in CX.38
+Assert #{OB.3083: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.2979 in CX.38
+Assert #{OB.3084: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3080 in CX.38
+Assert #{OB.3080: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.38
+Personal goal outcome #{OB.3080: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in #{CX.38: (CX)}
+Emotional responses for #{OB.3080: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in #{CX.38: (CX)}
+Add dependency from #{OB.3080: (SUCCEEDED-GOAL obj (BELIEVE...)......)} to #{OB.3085: (POS-EMOTION)} in #{CX.38: (CX)}
+Assert #{OB.3086: (DEPENDENCY linked-from (SUCCEEDED-GOAL...)......)} in CX.38
+Assert #{OB.3085: (POS-EMOTION strength 0.75)} in CX.38
+==================================================
+ I feel really poised.
+==================================================
+Assert #{OB.3081: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.38
+==================================================
+ He likes me.
+==================================================
+Subgoals of #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} completed
+******************
+Goal #{OB.2708: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.38: (CX)}
+Retract OB.2708 in CX.38
+Assert #{OB.3088: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.38
+Retract OB.2993 in CX.38
+Assert #{OB.3091: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3084 in CX.38
+Assert #{OB.3092: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.2709 in CX.38
+Assert #{OB.3093: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.38
+Retract OB.3088 in CX.38
+Assert #{OB.3088: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.38
+Personal goal outcome #{OB.3088: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in #{CX.38: (CX)}
+Emotional responses for #{OB.3088: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in #{CX.38: (CX)}
+Add dependency from #{OB.3088: (SUCCEEDED-GOAL obj (BELIEVE...)......)} to #{OB.3094: (POS-EMOTION)} in #{CX.38: (CX)}
+Assert #{OB.3095: (DEPENDENCY linked-from (SUCCEEDED-GOAL...)......)} in CX.38
+Assert #{OB.3094: (POS-EMOTION strength 0.42749998......)} in CX.38
+==================================================
+ I feel poised.
+==================================================
+Assert #{OB.3089: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.38
+==================================================
+ He is interested in me.
+==================================================
+Run inferences in #{CX.38: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.38: (CX)}
+Running plans in #{CX.38: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2713: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in #{CX.38: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.38: (CX)}
+Order candidates NIL
+Try believe others
+Try subgoal relaxation
+#{CX.38: (CX)} --> #{CX.39: (CX)}
+Debugging being delayed for broadcast at a later time.
+Debugging resumed.
+Pruning possibilities from (#{CX.39: (CX)})
+:----------------------CX.39--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.38: (CX)}
+setting last sprout concept = #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.37: (CX)}
+setting last sprout concept = #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.36: (CX)}
+setting last sprout concept = #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.34: (CX)}
+Broadcasting delayed debugs.
+Retract OB.3040 in CX.39
+Assert #{OB.3108: (ORDERING)} in CX.39
+Subgoal relaxation, #{OB.2713: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds
+
+Assert #{OB.2712: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.39
+==================================================
+ Maybe he is not going out with anyone.
+==================================================
+******************
+Goal #{OB.2713: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.39: (CX)}
+Retract OB.2713 in CX.39
+Assert #{OB.3110: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.39
+Retract OB.2714 in CX.39
+Assert #{OB.3114: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.39
+Retract OB.3110 in CX.39
+Assert #{OB.3110: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.39
+End of delayed broadcast.
+Subgoals of #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} completed
+******************
+Goal #{OB.2689: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} succeeds in #{CX.39: (CX)}
+Retract OB.2689 in CX.39
+Assert #{OB.3115: (ACTIVE-GOAL obj (BELIEVE actor ......)......)} in CX.39
+Retract OB.3093 in CX.39
+Assert #{OB.3119: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.39
+Retract OB.3114 in CX.39
+Assert #{OB.3120: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.39
+Retract OB.2690 in CX.39
+Assert #{OB.3121: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.39
+Retract OB.3115 in CX.39
+Assert #{OB.3115: (SUCCEEDED-GOAL obj (BELIEVE...)......)} in CX.39
+==================================================
+ I succeed at him wanting to be going out with me.
+==================================================
+Assert #{OB.3116: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.39
+==================================================
+ He wants to be going out with me.
+==================================================
+Run inferences in #{CX.39: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.39: (CX)}
+Running plans in #{CX.39: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} in #{CX.39: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2691: (M-DATE actor ME MOVIE-STAR1......)} in #{CX.39: (CX)}
+Order candidates 
+((#{M-DATE-PLAN: (RULE subgoal (RSEQ obj (M-AGREE...) ......)......)}
+  (T (OTHER #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{M-DATE-PLAN: (RULE subgoal (RSEQ obj (M-AGREE...) ......)......)} for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} in #{CX.39: (CX)}
+#{CX.39: (CX)} --> #{CX.40: (CX)}
+Debugging being delayed for broadcast at a later time.
+M-DATE-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.40: (CX)})
+:----------------------CX.40--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in #{CX.39: (CX)}
+Broadcasting delayed debugs.
+******************
+M-DATE-PLAN fired as plan 
+for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)}
+in CX.39 sprouting CX.40
+-------------------------------------------------------
+IF   ACTIVE-GOAL for M-DATE with self and person 
+THEN ACTIVE-GOAL for self and person to M-AGREE 
+     to M-RESTAURANT with self and person and 
+     ACTIVE-GOAL for self and person to ENABLE-FUTURE-VPROX 
+     and 
+     ACTIVE-GOAL for it to be FRIDAY-NIGHT and 
+     ACTIVE-GOAL for self to be AT location of 
+     person and 
+     ACTIVE-GOAL for M-RESTAURANT with self and 
+     person and 
+     ACTIVE-GOAL for self and person to be AT 
+     initial location of person and 
+     ACTIVE-GOAL for self and person to M-KISS 
+     and 
+     ACTIVE-GOAL for self to be AT initial location 
+     of self 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3108 in CX.40
+Assert #{OB.3133: (ORDERING)} in CX.40
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3134: (M-AGREE actor ME MOVIE-STAR1......)} in #{CX.40: (CX)}
+Assert #{OB.3137: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in CX.40
+==================================================
+ He and I have to agree to have dinner with him
+ at a restaurant.
+==================================================
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3138: (ENABLE-FUTURE-VPROX actor ......)} in #{CX.40: (CX)}
+Assert #{OB.3140: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3139: (ACTIVE-GOAL obj (ENABLE-FUTURE-VPROX...)......)} in CX.40
+==================================================
+ He and I have to be able to contact each other.
+==================================================
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3141: (FRIDAY-NIGHT)} in #{CX.40: (CX)}
+Assert #{OB.3143: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3142: (ACTIVE-GOAL obj (FRIDAY-NIGHT...)......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3144: (AT actor MOVIE-STAR1 obj ?LOCATION2......)} in #{CX.40: (CX)}
+Assert #{OB.3146: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3145: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3147: (AT actor ME obj ?LOCATION2......)} in #{CX.40: (CX)}
+Assert #{OB.3149: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3148: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3150: (M-RESTAURANT actor ME MOVIE-STAR1......)} in #{CX.40: (CX)}
+Assert #{OB.3152: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3151: (ACTIVE-GOAL obj (M-RESTAURANT...)......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3153: (LATER obj (AT actor MOVIE-STAR1......)......)} in #{CX.40: (CX)}
+Assert #{OB.3156: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3155: (ACTIVE-GOAL obj (LATER obj ......)......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3157: (LATER obj (AT actor ME obj ......)......)} in #{CX.40: (CX)}
+Assert #{OB.3160: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3159: (ACTIVE-GOAL obj (LATER obj ......)......)} in CX.40
+Activate subgoal for #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} obj #{OB.3161: (M-KISS actor ME MOVIE-STAR1......)} in #{CX.40: (CX)}
+Assert #{OB.3163: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.40
+Assert #{OB.3162: (ACTIVE-GOAL obj (M-KISS actor ......)......)} in CX.40
+End of delayed broadcast.
+Run inferences in #{CX.40: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.40: (CX)}
+Running plans in #{CX.40: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in #{CX.40: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.3134: (M-AGREE actor ME MOVIE-STAR1......)} in #{CX.40: (CX)}
+Order candidates 
+((#{M-AGREE-PLAN: (RULE subgoal (RSEQ obj (MTRANS...) ......)......)}
+  (T (MUTUAL-OBJ #{OB.3135: (M-RESTAURANT actor ME MOVIE-STAR1......)})
+   (OTHER #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{M-AGREE-PLAN: (RULE subgoal (RSEQ obj (MTRANS...) ......)......)} for #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in #{CX.40: (CX)}
+#{CX.40: (CX)} --> #{CX.41: (CX)}
+Debugging being delayed for broadcast at a later time.
+M-AGREE-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.41: (CX)})
+:----------------------CX.41--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.40: (CX)}
+Broadcasting delayed debugs.
+******************
+M-AGREE-PLAN fired as plan 
+for #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)}
+in CX.40 sprouting CX.41
+-------------------------------------------------------
+IF   ACTIVE-GOAL for self and person to M-AGREE 
+     to thing 
+THEN ACTIVE-GOAL for self to MTRANS to person 
+     that self has ACTIVE-GOAL for that something 
+     and 
+     ACTIVE-GOAL for person to MTRANS to self 
+     that person have ACTIVE-GOAL for thing 
+-------------------------------------------------------
+
+?MUTUAL-OBJ = #{OB.3135: (M-RESTAURANT actor ME MOVIE-STAR1......)}
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3133 in CX.41
+Assert #{OB.3175: (ORDERING)} in CX.41
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} obj #{OB.3176: (MTRANS actor ME from ME to ......)} in #{CX.41: (CX)}
+Assert #{OB.3180: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.41
+Assert #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.41
+Activate subgoal for #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} obj #{OB.3181: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.41: (CX)}
+Assert #{OB.3185: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.41
+Assert #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.41
+End of delayed broadcast.
+Run inferences in #{CX.41: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.41: (CX)}
+Running plans in #{CX.41: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.41: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.3176: (MTRANS actor ME from ME to ......)} in #{CX.41: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.3177: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)})
+   (PERSON2 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (PERSON1 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.41: (CX)}
+#{CX.41: (CX)} --> #{CX.42: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.42: (CX)})
+:----------------------CX.42--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.41: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.41 sprouting CX.42
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3177: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3175 in CX.42
+Assert #{OB.3197: (ORDERING)} in CX.42
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3198: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.42: (CX)}
+Assert #{OB.3200: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.42
+Assert #{OB.3199: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.42
+End of delayed broadcast.
+******************
+Goal #{OB.3199: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.42: (CX)}
+Retract OB.3199 in CX.42
+Assert #{OB.3201: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.42
+Retract OB.3200 in CX.42
+Assert #{OB.3203: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.42
+Retract OB.3201 in CX.42
+Assert #{OB.3201: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.42
+Assert #{OB.3204: (DEPENDENCY linked-from (VPROX...)......)} in CX.42
+Subgoals of #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.42: (CX)}
+******************
+Goal #{OB.3179: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.42: (CX)}
+Retract OB.3179 in CX.42
+Assert #{OB.3205: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.42
+Retract OB.3203 in CX.42
+Assert #{OB.3210: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.42
+Retract OB.3180 in CX.42
+Assert #{OB.3211: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.42
+Retract OB.3205 in CX.42
+Assert #{OB.3205: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.42
+Assert #{OB.3206: (MTRANS actor ME from ME to ......)} in CX.42
+==================================================
+ I tell him I would like to have dinner with him
+ at a restaurant.
+==================================================
+Run inferences in #{CX.42: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.42
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3207: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3220: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.42
+Assert #{OB.3222: (DEPENDENCY linked-from (MTRANS...)......)} in CX.42
+Taking optional concept input
+Enter concepts in #{CX.42: (CX)}
+Parser> 
+End of parser input
+Running p-goals in #{CX.42: (CX)}
+Running plans in #{CX.42: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.42: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.3181: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.42: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.3182: (BELIEVE actor MOVIE-STAR1 obj ......)})
+   (PERSON2 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (PERSON1 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.42: (CX)}
+#{CX.42: (CX)} --> #{CX.43: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.43: (CX)})
+:----------------------CX.43--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.42: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.42 sprouting CX.43
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3182: (BELIEVE actor MOVIE-STAR1 obj ......)}
+?PERSON2 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON1 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3197 in CX.43
+Assert #{OB.3237: (ORDERING)} in CX.43
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3238: (VPROX actor ME MOVIE-STAR1......)} in #{CX.43: (CX)}
+Assert #{OB.3240: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.43
+Assert #{OB.3239: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.43
+End of delayed broadcast.
+******************
+Goal #{OB.3239: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.43: (CX)}
+Retract OB.3239 in CX.43
+Assert #{OB.3241: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.43
+Retract OB.3240 in CX.43
+Assert #{OB.3243: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.43
+Retract OB.3241 in CX.43
+Assert #{OB.3241: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.43
+Assert #{OB.3244: (DEPENDENCY linked-from (VPROX...)......)} in CX.43
+Subgoals of #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform other action #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.43: (CX)}
+Enter concepts in #{CX.43: (CX)}
+Parser> 
+Input: He declines.
+Input received
+Assert #{OB.3245: (MTRANS actor MOVIE-STAR1 from ......)} in CX.43
+==================================================
+ He declines.
+==================================================
+Parser> 
+End of parser input
+******************
+Goal #{OB.3184: (ACTIVE-GOAL obj (MTRANS actor ......)......)} fails in #{CX.43: (CX)}
+Retract OB.3241 in CX.43
+Retract OB.3243 in CX.43
+Retract OB.3184 in CX.43
+Assert #{OB.3246: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.43
+Retract OB.3185 in CX.43
+Assert #{OB.3251: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.43
+Retract OB.3246 in CX.43
+Assert #{OB.3246: (FAILED-GOAL obj (MTRANS actor ......)......)} in CX.43
+Assert #{OB.3252: (DEPENDENCY linked-from (MTRANS...)......)} in CX.43
+Run inferences in #{CX.43: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN2 BELIEVE-PLAN2 fired as inference in CX.43
+-------------------------------------------------------
+IF   MTRANS NOT mental state to person 
+THEN person BELIEVE self NOT mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.308: (BELIEVE actor MOVIE-STAR1 obj ......)}
+?PERSON2 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON1 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3261: (BELIEVE actor ME obj (BELIEVE...)......)} in CX.43
+Assert #{OB.3264: (DEPENDENCY linked-from (MTRANS...)......)} in CX.43
+Subgoal of #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} failed
+******************
+Goal #{OB.3136: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} fails in #{CX.43: (CX)}
+Retract OB.3246 in CX.43
+Retract OB.3201 in CX.43
+Retract OB.3210 in CX.43
+Retract OB.3205 in CX.43
+Retract OB.3211 in CX.43
+Retract OB.3251 in CX.43
+Retract OB.3136 in CX.43
+Assert #{OB.3280: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in CX.43
+Retract OB.3137 in CX.43
+Assert #{OB.3283: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.43
+Retract OB.3280 in CX.43
+Assert #{OB.3280: (FAILED-GOAL obj (M-AGREE actor ......)......)} in CX.43
+==================================================
+ I fail at him and me agreeing to have dinner with
+ him at a restaurant.
+==================================================
+Subgoal of #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} failed
+******************
+Goal #{OB.2692: (ACTIVE-GOAL obj (M-DATE actor ......)......)} fails in #{CX.43: (CX)}
+Retract OB.3280 in CX.43
+Retract OB.3162 in CX.43
+Retract OB.3159 in CX.43
+Retract OB.3155 in CX.43
+Retract OB.3151 in CX.43
+Retract OB.3148 in CX.43
+Retract OB.3145 in CX.43
+Retract OB.3142 in CX.43
+Retract OB.3139 in CX.43
+Retract OB.3140 in CX.43
+Retract OB.3143 in CX.43
+Retract OB.3146 in CX.43
+Retract OB.3149 in CX.43
+Retract OB.3152 in CX.43
+Retract OB.3156 in CX.43
+Retract OB.3160 in CX.43
+Retract OB.3163 in CX.43
+Retract OB.3283 in CX.43
+Retract OB.2692 in CX.43
+Assert #{OB.3284: (ACTIVE-GOAL obj (M-DATE actor ......)......)} in CX.43
+Retract OB.2693 in CX.43
+Assert #{OB.3286: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.43
+Retract OB.3284 in CX.43
+Assert #{OB.3284: (FAILED-GOAL obj (M-DATE actor ......)......)} in CX.43
+==================================================
+ I fail at him and me going out on a date.
+==================================================
+Subgoal of #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} failed
+******************
+Goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails in #{CX.43: (CX)}
+Run inferences in #{CX.43: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.43: (CX)}
+Running plans in #{CX.43: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in #{CX.43: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.2694: (M-AGREE actor ME MOVIE-STAR1......)} in #{CX.43: (CX)}
+Order candidates 
+((#{M-AGREE-PLAN: (RULE subgoal (RSEQ obj (MTRANS...) ......)......)}
+  (T (MUTUAL-OBJ #{OB.2695: (LOVERS actor ME MOVIE-STAR1......)})
+   (OTHER #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{M-AGREE-PLAN: (RULE subgoal (RSEQ obj (MTRANS...) ......)......)} for #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in #{CX.43: (CX)}
+#{CX.43: (CX)} --> #{CX.44: (CX)}
+Debugging being delayed for broadcast at a later time.
+M-AGREE-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.44: (CX)})
+:----------------------CX.44--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.43: (CX)}
+Broadcasting delayed debugs.
+******************
+M-AGREE-PLAN fired as plan 
+for #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)}
+in CX.43 sprouting CX.44
+-------------------------------------------------------
+IF   ACTIVE-GOAL for self and person to M-AGREE 
+     to thing 
+THEN ACTIVE-GOAL for self to MTRANS to person 
+     that self has ACTIVE-GOAL for that something 
+     and 
+     ACTIVE-GOAL for person to MTRANS to self 
+     that person have ACTIVE-GOAL for thing 
+-------------------------------------------------------
+
+?MUTUAL-OBJ = #{OB.2695: (LOVERS actor ME MOVIE-STAR1......)}
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3237 in CX.44
+Assert #{OB.3301: (ORDERING)} in CX.44
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} obj #{OB.3302: (MTRANS actor ME from ME to ......)} in #{CX.44: (CX)}
+Assert #{OB.3306: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.44
+Assert #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.44
+Activate subgoal for #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} obj #{OB.3307: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.44: (CX)}
+Assert #{OB.3311: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.44
+Assert #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.44
+End of delayed broadcast.
+Subgoal of #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} failed
+******************
+Goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails in #{CX.44: (CX)}
+Run inferences in #{CX.44: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.44: (CX)}
+Running plans in #{CX.44: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.44: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.3302: (MTRANS actor ME from ME to ......)} in #{CX.44: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.3303: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)})
+   (PERSON2 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (PERSON1 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.44: (CX)}
+#{CX.44: (CX)} --> #{CX.45: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.45: (CX)})
+:----------------------CX.45--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.44: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.44 sprouting CX.45
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3303: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3301 in CX.45
+Assert #{OB.3326: (ORDERING)} in CX.45
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3327: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.45: (CX)}
+Assert #{OB.3329: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.45
+Assert #{OB.3328: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.45
+End of delayed broadcast.
+******************
+Goal #{OB.3328: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.45: (CX)}
+Retract OB.3328 in CX.45
+Assert #{OB.3330: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.45
+Retract OB.3329 in CX.45
+Assert #{OB.3332: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.45
+Retract OB.3330 in CX.45
+Assert #{OB.3330: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.45
+Assert #{OB.3333: (DEPENDENCY linked-from (VPROX...)......)} in CX.45
+Subgoal of #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} failed
+******************
+Goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails in #{CX.45: (CX)}
+Subgoals of #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.45: (CX)}
+******************
+Goal #{OB.3305: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.45: (CX)}
+Retract OB.3305 in CX.45
+Assert #{OB.3334: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.45
+Retract OB.3332 in CX.45
+Assert #{OB.3339: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.45
+Retract OB.3306 in CX.45
+Assert #{OB.3340: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.45
+Retract OB.3334 in CX.45
+Assert #{OB.3334: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.45
+Assert #{OB.3335: (MTRANS actor ME from ME to ......)} in CX.45
+==================================================
+ I ask him out.
+==================================================
+Run inferences in #{CX.45: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+BELIEVE-PLAN1 BELIEVE-PLAN1 fired as inference in CX.45
+-------------------------------------------------------
+IF   MTRANS mental state to person 
+THEN person BELIEVE self mental state 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3336: (BELIEVE actor ME obj (ACTIVE-GOAL...)......)}
+?PERSON2 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?PERSON1 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3351: (BELIEVE actor MOVIE-STAR1 obj ......)} in CX.45
+Assert #{OB.3353: (DEPENDENCY linked-from (MTRANS...)......)} in CX.45
+Taking optional concept input
+Enter concepts in #{CX.45: (CX)}
+Parser> 
+End of parser input
+Running p-goals in #{CX.45: (CX)}
+Running plans in #{CX.45: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.45: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.3307: (MTRANS actor MOVIE-STAR1 from ......)} in #{CX.45: (CX)}
+Order candidates 
+((#{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)}
+  (T (MENTAL-STATE #{OB.3308: (BELIEVE actor MOVIE-STAR1 obj ......)})
+   (PERSON2 #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (PERSON1 #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-PLAN2: (RULE subgoal (VPROX actor ......) goal ......)} for #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.45: (CX)}
+#{CX.45: (CX)} --> #{CX.46: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.46: (CX)})
+:----------------------CX.46--------------------
+Running rules for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)}
+setting last sprout concept = NIL in #{CX.45: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-PLAN2 fired as plan 
+for #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.45 sprouting CX.46
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS mental state to person 
+THEN ACTIVE-GOAL to be VPROX person 
+-------------------------------------------------------
+
+?MENTAL-STATE = #{OB.3308: (BELIEVE actor MOVIE-STAR1 obj ......)}
+?PERSON2 = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?PERSON1 = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3326 in CX.46
+Assert #{OB.3371: (ORDERING)} in CX.46
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3372: (VPROX actor ME MOVIE-STAR1......)} in #{CX.46: (CX)}
+Assert #{OB.3374: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.46
+Assert #{OB.3373: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.46
+End of delayed broadcast.
+******************
+Goal #{OB.3373: (ACTIVE-GOAL obj (VPROX actor ......)......)} succeeds in #{CX.46: (CX)}
+Retract OB.3373 in CX.46
+Assert #{OB.3375: (ACTIVE-GOAL obj (VPROX actor ......)......)} in CX.46
+Retract OB.3374 in CX.46
+Assert #{OB.3377: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.46
+Retract OB.3375 in CX.46
+Assert #{OB.3375: (SUCCEEDED-GOAL obj (VPROX...)......)} in CX.46
+Assert #{OB.3378: (DEPENDENCY linked-from (VPROX...)......)} in CX.46
+Subgoal of #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} failed
+******************
+Goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails in #{CX.46: (CX)}
+Subgoals of #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform other action #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.46: (CX)}
+Enter concepts in #{CX.46: (CX)}
+Parser> 
+End of parser input
+******************
+Goal #{OB.3310: (ACTIVE-GOAL obj (MTRANS actor ......)......)} fails in #{CX.46: (CX)}
+Retract OB.3375 in CX.46
+Retract OB.3377 in CX.46
+Retract OB.3310 in CX.46
+Assert #{OB.3379: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.46
+Retract OB.3311 in CX.46
+Assert #{OB.3384: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.46
+Retract OB.3379 in CX.46
+Assert #{OB.3379: (FAILED-GOAL obj (MTRANS actor ......)......)} in CX.46
+Run inferences in #{CX.46: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Subgoal of #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} failed
+******************
+Goal #{OB.2696: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} fails in #{CX.46: (CX)}
+Retract OB.3379 in CX.46
+Retract OB.3330 in CX.46
+Retract OB.3339 in CX.46
+Retract OB.3334 in CX.46
+Retract OB.3340 in CX.46
+Retract OB.3384 in CX.46
+Retract OB.2696 in CX.46
+Assert #{OB.3400: (ACTIVE-GOAL obj (M-AGREE actor ......)......)} in CX.46
+Retract OB.2697 in CX.46
+Assert #{OB.3403: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.46
+Retract OB.3400 in CX.46
+Assert #{OB.3400: (FAILED-GOAL obj (M-AGREE actor ......)......)} in CX.46
+==================================================
+ I fail at him and me agreeing to be going
+ out with him.
+==================================================
+Run inferences in #{CX.46: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.46: (CX)}
+Running plans in #{CX.46: (CX)} for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Pruning possibilities from NIL
+Attempting to backtrack for top-level goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.46: (CX)}
+Top-level goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails: all possibilities exhausted
+All possibilities failed for #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.46: (CX)}
+******************
+Goal #{OB.2212: (ACTIVE-GOAL obj (LOVERS actor ......)......)} fails in #{CX.46: (CX)}
+Retract OB.2212 in CX.46
+Assert #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} in CX.46
+==================================================
+ I fail at going out with him.
+==================================================
+Terminating planning for top-level goal #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)}
+Leaf context #{CX.46: (CX)}
+[OB.2212: (FG. (LOVERS ME MOVIE-STAR1))]
+  [OB.2957: (SG. (ACQUAINTED ME MOVIE-STAR1))]
+    [OB.2950: (SG. (M-CONVERSATION ME MOVIE-STAR1))]
+      [OB.2852: (SG. (MTRANS-ACCEPTABLE ME MOVIE-STAR1))]
+        [OB.2803: (SG. (MTRANS ME ME MOVIE-STAR1 (ACTIVE-GOAL (KNOW ME (TIME-OF-DAY)))))]
+          [OB.2799: (SG. (VPROX MOVIE-STAR1 ME))]
+      [OB.2880: (SG. (MTRANS ME ME MOVIE-STAR1 (INTRODUCTION)))]
+        [OB.2876: (SG. (VPROX MOVIE-STAR1 ME))]
+      [OB.2919: (SG. (MTRANS MOVIE-STAR1 MOVIE-STAR1 ME (INTRODUCTION)))]
+        [OB.2914: (SG. (VPROX ME MOVIE-STAR1))]
+  [OB.2698: (SG. (ROMANTIC-INTEREST MOVIE-STAR1))]
+  [OB.3115: (SG. (BELIEVE MOVIE-STAR1 (ACTIVE-GOAL (LOVERS ME MOVIE-STAR1))))]
+    [OB.3088: (SG. (BELIEVE MOVIE-STAR1 (ROMANTIC-INTEREST ME)))]
+      [OB.2990: (SG. (BELIEVE MOVIE-STAR1 (ATTRACTIVE ME)))]
+      [OB.3080: (SG. (BELIEVE MOVIE-STAR1 (POS-ATTITUDE ME)))]
+        [OB.3073: (SG. (BELIEVE MOVIE-STAR1 (BELIEVE ME (POS-ATTITUDE (MOVIES MOVIE-STAR1)))))]
+          [OB.3048: (SG. (MTRANS ME ME MOVIE-STAR1 (POS-ATTITUDE (MOVIES MOVIE-STAR1))))]
+            [OB.3044: (SG. (VPROX MOVIE-STAR1 ME))]
+    [OB.3110: (SG. (BELIEVE MOVIE-STAR1 (NOT (LOVERS MOVIE-STAR1))))]
+  [OB.3284: (FG. (M-DATE ME MOVIE-STAR1))]
+  [OB.3400: (FG. (M-AGREE ME MOVIE-STAR1 obj (LOVERS ME MOVIE-STAR1)))]
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+Removing motivating emotions of #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} in #{CX.46: (CX)}
+Retract OB.2215 in CX.46
+Retract OB.2214 in CX.46
+Emotional responses for #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} in #{CX.46: (CX)}
+Add dependency from #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} to #{OB.3421: (NEG-EMOTION to MOVIE-STAR1......)} in #{CX.46: (CX)}
+Assert #{OB.3422: (DEPENDENCY linked-from (FAILED-GOAL...)......)} in CX.46
+Assert #{OB.3421: (NEG-EMOTION strength 1.15 to ......)} in CX.46
+==================================================
+ I feel really angry at him.
+==================================================
+Assert #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} in CX.46
+Assert: #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} already true in #{CX.46: (CX)}
+#{CX.46: (CX)} --> #{CX.47: (CX)}
+Retract OB.3400 in CX.47
+Retract OB.3284 in CX.47
+Retract OB.3110 in CX.47
+Retract OB.3044 in CX.47
+Retract OB.3051 in CX.47
+Retract OB.3048 in CX.47
+Retract OB.3077 in CX.47
+Retract OB.3073 in CX.47
+Retract OB.3083 in CX.47
+Retract OB.3080 in CX.47
+Retract OB.2990 in CX.47
+Retract OB.3091 in CX.47
+Retract OB.3092 in CX.47
+Retract OB.3088 in CX.47
+Retract OB.3119 in CX.47
+Retract OB.3120 in CX.47
+Retract OB.3115 in CX.47
+Retract OB.2914 in CX.47
+Retract OB.2922 in CX.47
+Retract OB.2919 in CX.47
+Retract OB.2876 in CX.47
+Retract OB.2883 in CX.47
+Retract OB.2880 in CX.47
+Retract OB.2799 in CX.47
+Retract OB.2808 in CX.47
+Retract OB.2803 in CX.47
+Retract OB.2854 in CX.47
+Retract OB.2852 in CX.47
+Retract OB.2952 in CX.47
+Retract OB.2953 in CX.47
+Retract OB.2954 in CX.47
+Retract OB.2950 in CX.47
+Retract OB.2959 in CX.47
+Retract OB.2957 in CX.47
+Retract OB.2698 in CX.47
+Retract OB.2700 in CX.47
+Retract OB.2960 in CX.47
+Retract OB.3121 in CX.47
+Retract OB.3286 in CX.47
+Retract OB.3403 in CX.47
+:Switching to new top-level goal #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+----------------------CX.47--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.46: (CX)}
+Run inferences in #{CX.47: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+REVENGE-THEME REVENGE-THEME fired as inference in CX.47
+-------------------------------------------------------
+IF   NEG-EMOTION toward person resulting from 
+     a FAILED-GOAL 
+THEN ACTIVE-GOAL to gain REVENGE against person 
+-------------------------------------------------------
+
+?OTHER = #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+?NEG-EMOTION = #{OB.3421: (NEG-EMOTION strength 1.0925......)}
+?FAILED-GOAL = #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.3433: (ACTIVE-GOAL obj (REVENGE actor ......)......)} in #{CX.47: (CX)}
+Assert #{OB.3433: (ACTIVE-GOAL obj (REVENGE actor ......)......)} in CX.47
+Add dependency from #{OB.3421: (NEG-EMOTION strength 1.0925......)} to #{OB.3433: (ACTIVE-GOAL obj (REVENGE actor ......)......)} in #{CX.47: (CX)}
+Assert #{OB.3435: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.47
+Assert #{OB.3421: (NEG-EMOTION strength 1.0925......)} in CX.47
+Assert: #{OB.3421: (NEG-EMOTION strength 1.0925......)} already true in #{CX.47: (CX)}
+Add dependency from #{OB.3437: (NEG-EMOTION strength 0.05)} to #{OB.3433: (ACTIVE-GOAL obj (REVENGE actor ......)......)} in #{CX.47: (CX)}
+Assert #{OB.3438: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.47
+Assert #{OB.3437: (NEG-EMOTION strength 0.05)} in CX.47
+#{CX.47: (CX)} --> #{CX.48: (CX)}
+Daydreaming goal concern OB.3433: REVENGE motiv 1.1424999 status RUNABLE
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+******************
+RATIONALIZATION-THEME RATIONALIZATION-THEME fired as inference in CX.47
+-------------------------------------------------------
+IF   NEG-EMOTION of sufficient strength resulting 
+     from a FAILED-GOAL 
+THEN ACTIVE-GOAL for RATIONALIZATION of failure 
+-------------------------------------------------------
+
+?NEG-EMOTION = #{OB.3421: (NEG-EMOTION strength 1.0925......)}
+?FAILED-GOAL = #{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.47: (CX)}
+Assert #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in CX.47
+Add dependency from #{OB.3421: (NEG-EMOTION strength 1.0925......)} to #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.47: (CX)}
+Assert #{OB.3445: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.47
+Assert #{OB.3421: (NEG-EMOTION strength 1.0925......)} in CX.47
+Assert: #{OB.3421: (NEG-EMOTION strength 1.0925......)} already true in #{CX.47: (CX)}
+Add dependency from #{OB.3447: (NEG-EMOTION strength 0.06)} to #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.47: (CX)}
+Assert #{OB.3448: (DEPENDENCY linked-from (NEG-EMOTION...)......)} in CX.47
+Assert #{OB.3447: (NEG-EMOTION strength 0.06)} in CX.47
+#{CX.47: (CX)} --> #{CX.49: (CX)}
+Daydreaming goal concern OB.3443: RATIONALIZATION motiv 1.1524999 status RUNABLE
+Daydreaming goal concern OB.3433: REVENGE motiv 1.1424999 status RUNABLE
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+******************
+LOVERS-THEME LOVERS-THEME fired as inference in CX.47
+-------------------------------------------------------
+IF   self not LOVERS with anyone 
+THEN ACTIVE-GOAL for LOVERS with some person 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+******************
+Activate top-level goal #{OB.3454: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.47: (CX)}
+Assert #{OB.3454: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in CX.47
+==================================================
+ I want to be going out with someone.
+==================================================
+Add dependency from #{OB.3456: (POS-EMOTION strength 0.9)} to #{OB.3454: (ACTIVE-GOAL obj (LOVERS actor ......)......)} in #{CX.47: (CX)}
+Assert #{OB.3457: (DEPENDENCY linked-from (POS-EMOTION...)......)} in CX.47
+Assert #{OB.3456: (POS-EMOTION strength 0.9)} in CX.47
+==================================================
+ I feel really interested in going out with
+ someone.
+==================================================
+Personal goal concern OB.3454: LOVERS motiv 0.9 status HALTED
+Daydreaming goal concern OB.3443: RATIONALIZATION motiv 1.1524999 status RUNABLE
+Daydreaming goal concern OB.3433: REVENGE motiv 1.1424999 status RUNABLE
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Personal goal concern OB.2217: ENTERTAINMENT motiv 0.6 status RUNABLE
+Running p-goals in #{CX.47: (CX)}
+Running plans in #{CX.47: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.47: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2256: (MTRANS actor ME from NUART-THEATER......)} in #{CX.47: (CX)}
+Order candidates 
+((#{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+  (T (PHYS-OBJ #{NUART-THEATER: (THEATER name "the Nuart")})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)} for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.47: (CX)}
+#{CX.47: (CX)} --> #{CX.50: (CX)}
+Debugging being delayed for broadcast at a later time.
+MTRANS-MOVIE-PLAN Debugging resumed.
+Run plan for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.47: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2253: (PTRANS actor ME from NUART-LOCATION......)} in #{CX.47: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{HOME: (LOCATION name "home")})
+   (LOCATION1 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.47: (CX)}
+#{CX.47: (CX)} --> #{CX.51: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.51: (CX)} #{CX.50: (CX)} #{CX.49: (CX)} #{CX.48: (CX)})
+:----------------------CX.50--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.47: (CX)}
+Broadcasting delayed debugs.
+******************
+MTRANS-MOVIE-PLAN fired as plan 
+for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)}
+in CX.47 sprouting CX.50
+-------------------------------------------------------
+IF   ACTIVE-GOAL to MTRANS MOVIE from theater 
+     to self 
+THEN ACTIVE-GOAL to be AT location of theater 
+-------------------------------------------------------
+
+?PHYS-OBJ = #{NUART-THEATER: (THEATER name "the Nuart")}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3371 in CX.50
+Assert #{OB.3481: (ORDERING)} in CX.50
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3482: (AT actor NUART-THEATER obj ......)} in #{CX.50: (CX)}
+Assert #{OB.3484: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.50
+Assert #{OB.3483: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in CX.50
+Activate subgoal for #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} obj #{OB.3485: (AT actor ME obj ?LOCATION)} in #{CX.50: (CX)}
+Assert #{OB.3487: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.50
+Assert #{OB.3486: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in CX.50
+End of delayed broadcast.
+Run inferences in #{CX.50: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.50: (CX)}
+Running plans in #{CX.50: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3483: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} in #{CX.50: (CX)}
+Try fact plans
+#{CX.50: (CX)} --> #{CX.52: (CX)}
+Debugging being delayed for broadcast at a later time.
+Debugging resumed.
+Run plan for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.50: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2253: (PTRANS actor ME from NUART-LOCATION......)} in #{CX.50: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{HOME: (LOCATION name "home")})
+   (LOCATION1 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.50: (CX)}
+#{CX.50: (CX)} --> #{CX.53: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.53: (CX)} #{CX.52: (CX)})
+:----------------------CX.52--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.50: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.47: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.46: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.45: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.44: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.43: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.42: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.41: (CX)}
+setting last sprout concept = #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in #{CX.40: (CX)}
+Broadcasting delayed debugs.
+Retract OB.3481 in CX.52
+Assert #{OB.3513: (ORDERING)} in CX.52
+Fact plan #{OB.290: (AT actor NUART-THEATER obj ......)} found
+(AT actor NUART-THEATER obj ......)
+?LOCATION = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+******************
+Goal #{OB.3483: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} succeeds in #{CX.52: (CX)}
+Instantiating plan for OB.2217: ENTERTAINMENT
+Retract OB.3486 in CX.52
+Assert #{OB.3514: (ACTIVE-GOAL obj (AT actor ......))} in CX.52
+Retract OB.3487 in CX.52
+Assert #{OB.3516: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.3483 in CX.52
+Assert #{OB.3517: (ACTIVE-GOAL obj (AT actor ......))} in CX.52
+Retract OB.3484 in CX.52
+Assert #{OB.3519: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.3517 in CX.52
+Assert #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)} in CX.52
+==================================================
+ I succeed at the Nuart being at the Nuart.
+==================================================
+Assert #{OB.3520: (DEPENDENCY linked-from (AT...)......)} in CX.52
+End of delayed broadcast.
+******************
+Goal #{OB.3514: (ACTIVE-GOAL obj (AT actor ......) top-level-goal ......)} succeeds in #{CX.52: (CX)}
+Retract OB.3514 in CX.52
+Assert #{OB.3526: (ACTIVE-GOAL obj (AT actor ......))} in CX.52
+Retract OB.3516 in CX.52
+Assert #{OB.3530: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.3526 in CX.52
+Assert #{OB.3526: (SUCCEEDED-GOAL obj (AT actor ......)......)} in CX.52
+Assert #{OB.3531: (DEPENDENCY linked-from (AT...)......)} in CX.52
+Subgoals of #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in #{CX.52: (CX)}
+******************
+Goal #{OB.2255: (ACTIVE-GOAL obj (MTRANS actor ......)......)} succeeds in #{CX.52: (CX)}
+Retract OB.2255 in CX.52
+Assert #{OB.3532: (ACTIVE-GOAL obj (MTRANS actor ......)......)} in CX.52
+Retract OB.3519 in CX.52
+Assert #{OB.3537: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.3530 in CX.52
+Assert #{OB.3538: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.2258 in CX.52
+Assert #{OB.3539: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.52
+Retract OB.3532 in CX.52
+Assert #{OB.3532: (SUCCEEDED-GOAL obj (MTRANS...)......)} in CX.52
+Assert #{OB.3533: (MTRANS actor ME from NUART-THEATER......)} in CX.52
+==================================================
+ I watch a movie at the Nuart.
+==================================================
+Run inferences in #{CX.52: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Taking optional concept input
+Enter concepts in #{CX.52: (CX)}
+Parser> 
+End of parser input
+Running p-goals in #{CX.52: (CX)}
+Running plans in #{CX.52: (CX)} for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.52: (CX)}
+Try rules and episodes
+Find candidate rules for obj #{OB.2253: (PTRANS actor ME from NUART-LOCATION......)} in #{CX.52: (CX)}
+Order candidates 
+((#{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+  (T (FREE-OBJ #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (LOCATION2 #{HOME: (LOCATION name "home")})
+   (LOCATION1 #{NUART-LOCATION: (LOCATION name "the Nuart")})
+   (PERSON #{ME: (FEMALE-PERSON first-name "Sarah"......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)} for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.52: (CX)}
+#{CX.52: (CX)} --> #{CX.54: (CX)}
+Debugging being delayed for broadcast at a later time.
+PTRANS-PLAN Debugging resumed.
+Pruning possibilities from (#{CX.54: (CX)})
+:----------------------CX.54--------------------
+Running rules for #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)}
+setting last sprout concept = NIL in #{CX.52: (CX)}
+Broadcasting delayed debugs.
+******************
+PTRANS-PLAN fired as plan 
+for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)}
+in CX.52 sprouting CX.54
+-------------------------------------------------------
+IF   ACTIVE-GOAL for person to PTRANS to location 
+THEN ACTIVE-GOAL for person to KNOW location 
+-------------------------------------------------------
+
+?FREE-OBJ = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?LOCATION2 = #{HOME: (LOCATION name "home")}
+?LOCATION1 = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?PERSON = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3513 in CX.54
+Assert #{OB.3560: (ORDERING)} in CX.54
+Instantiate and activate subgoals
+Activate subgoal for #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} obj #{OB.3561: (KNOW actor ME obj HOME)} in #{CX.54: (CX)}
+Assert #{OB.3563: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Assert #{OB.3562: (ACTIVE-GOAL obj (KNOW actor ......)......)} in CX.54
+End of delayed broadcast.
+******************
+Goal #{OB.3562: (ACTIVE-GOAL obj (KNOW actor ......)......)} succeeds in #{CX.54: (CX)}
+Retract OB.3562 in CX.54
+Assert #{OB.3564: (ACTIVE-GOAL obj (KNOW actor ......)......)} in CX.54
+Retract OB.3563 in CX.54
+Assert #{OB.3566: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.3564 in CX.54
+Assert #{OB.3564: (SUCCEEDED-GOAL obj (KNOW actor ......)......)} in CX.54
+Assert #{OB.3567: (DEPENDENCY linked-from (KNOW...)......)} in CX.54
+Subgoals of #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} completed
+Perform external action
+Perform action goal #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in #{CX.54: (CX)}
+******************
+Goal #{OB.2252: (ACTIVE-GOAL obj (PTRANS actor ......)......)} succeeds in #{CX.54: (CX)}
+Retract OB.2252 in CX.54
+Assert #{OB.3568: (ACTIVE-GOAL obj (PTRANS actor ......)......)} in CX.54
+Retract OB.3566 in CX.54
+Assert #{OB.3573: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.2254 in CX.54
+Assert #{OB.3574: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.3568 in CX.54
+Assert #{OB.3568: (SUCCEEDED-GOAL obj (PTRANS...)......)} in CX.54
+Assert #{OB.3569: (PTRANS actor ME from NUART-LOCATION......)} in CX.54
+==================================================
+ I go home.
+==================================================
+Run inferences in #{CX.54: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+AT-PLAN AT-PLAN fired as inference in CX.54
+-------------------------------------------------------
+IF   person PTRANS from location1 to location2 
+THEN person AT location2 and 
+     delete person AT location1 
+-------------------------------------------------------
+
+?LOCATION2 = #{HOME: (LOCATION name "home")}
+?LOCATION1 = #{NUART-LOCATION: (LOCATION name "the Nuart")}
+?PERSON = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3589: (AT actor ME obj HOME)} in CX.54
+Assert #{OB.3590: (DEPENDENCY linked-from (PTRANS...)......)} in CX.54
+Inference retract #{OB.3592: (AT actor ME obj NUART-LOCATION......)} in #{CX.54: (CX)}
+Leafs = (#{OB.2293: (PTRANS actor ME from HOME to ......)})
+Retracting dependencies of #{OB.2293: (PTRANS actor ME from HOME to ......)} in #{CX.54: (CX)}
+Retract OB.2299 in CX.54
+Retracting dependencies of #{OB.2298: (AT actor ME obj NUART-LOCATION......)} in #{CX.54: (CX)}
+Retract OB.2308 in CX.54
+Retract OB.2309 in CX.54
+Retracting dependencies of #{OB.2307: (VPROX actor ME MOVIE-STAR1......)} in #{CX.54: (CX)}
+Retract OB.2802 in CX.54
+Retracting dependencies of #{OB.2800: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.54: (CX)}
+Retract: #{OB.2800: (VPROX actor MOVIE-STAR1 ME......)} already false in #{CX.54: (CX)}
+Retract OB.2879 in CX.54
+Retracting dependencies of #{OB.2877: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.54: (CX)}
+Retract: #{OB.2877: (VPROX actor MOVIE-STAR1 ME......)} already false in #{CX.54: (CX)}
+Retract OB.2917 in CX.54
+Retracting dependencies of #{OB.2915: (VPROX actor ME MOVIE-STAR1......)} in #{CX.54: (CX)}
+Retract: #{OB.2915: (VPROX actor ME MOVIE-STAR1......)} already false in #{CX.54: (CX)}
+Retract OB.3047 in CX.54
+Retracting dependencies of #{OB.3045: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.54: (CX)}
+Retract: #{OB.3045: (VPROX actor MOVIE-STAR1 ME......)} already false in #{CX.54: (CX)}
+Retract OB.3204 in CX.54
+Retracting dependencies of #{OB.3202: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.54: (CX)}
+Retract: #{OB.3202: (VPROX actor MOVIE-STAR1 ME......)} already false in #{CX.54: (CX)}
+Retract OB.3244 in CX.54
+Retracting dependencies of #{OB.3242: (VPROX actor ME MOVIE-STAR1......)} in #{CX.54: (CX)}
+Retract: #{OB.3242: (VPROX actor ME MOVIE-STAR1......)} already false in #{CX.54: (CX)}
+Retract OB.3333 in CX.54
+Retracting dependencies of #{OB.3331: (VPROX actor MOVIE-STAR1 ME......)} in #{CX.54: (CX)}
+Retract: #{OB.3331: (VPROX actor MOVIE-STAR1 ME......)} already false in #{CX.54: (CX)}
+Retract OB.3378 in CX.54
+Retracting dependencies of #{OB.3376: (VPROX actor ME MOVIE-STAR1......)} in #{CX.54: (CX)}
+Retract: #{OB.3376: (VPROX actor ME MOVIE-STAR1......)} already false in #{CX.54: (CX)}
+Retract OB.2307 in CX.54
+Retract OB.2812 in CX.54
+Retract OB.2813 in CX.54
+Retract OB.2814 in CX.54
+Retract OB.2815 in CX.54
+Retract OB.2818 in CX.54
+Retracting dependencies of #{OB.2810: (BELIEVE actor MOVIE-STAR1 obj ......)} in #{CX.54: (CX)}
+Bottoms out at #{OB.2810: (BELIEVE actor MOVIE-STAR1 obj ......)}
+Retract OB.3531 in CX.54
+Retracting dependencies of #{OB.3527: (AT actor ME obj NUART-LOCATION......)} in #{CX.54: (CX)}
+Retract: #{OB.3527: (AT actor ME obj NUART-LOCATION......)} already false in #{CX.54: (CX)}
+Retract OB.2298 in CX.54
+Retract OB.2293 in CX.54
+Taking optional concept input
+Enter concepts in #{CX.54: (CX)}
+Parser> 
+End of parser input
+Subgoals of #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} completed
+******************
+Goal #{OB.2229: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} succeeds in #{CX.54: (CX)}
+Retract OB.2229 in CX.54
+Assert #{OB.3604: (ACTIVE-GOAL obj (M-MOVIE actor ......)......)} in CX.54
+Retract OB.2264 in CX.54
+Assert #{OB.3606: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.2297 in CX.54
+Assert #{OB.3607: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.3539 in CX.54
+Assert #{OB.3608: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.3574 in CX.54
+Assert #{OB.3609: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.2230 in CX.54
+Assert #{OB.3610: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.54
+Retract OB.3604 in CX.54
+Assert #{OB.3604: (SUCCEEDED-GOAL obj (M-MOVIE...)......)} in CX.54
+==================================================
+ I succeed at have gone to see a movie.
+==================================================
+Assert #{OB.3605: (M-MOVIE actor ME)} in CX.54
+==================================================
+ I have gone to see a movie.
+==================================================
+Run inferences in #{CX.54: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+******************
+ENTERTAINMENT-INF1 ENTERTAINMENT-INF1 fired as inference in CX.54
+-------------------------------------------------------
+IF   M-MOVIE with self 
+THEN ENTERTAINMENT need satisfied 
+-------------------------------------------------------
+
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Assert #{OB.3621: (DEPENDENCY linked-from (M-MOVIE...)......)} in CX.54
+******************
+Goal #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} succeeds in #{CX.54: (CX)}
+Replace obj of #{OB.2217: (ACTIVE-GOAL obj (ENTERTAINMENT...)......)} with (#{OB.241: (ENTERTAINMENT strength 1.0......)})
+Retract OB.2217 in CX.54
+Assert #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} in CX.54
+==================================================
+ I succeed at being entertained.
+==================================================
+Assert #{OB.3624: (DEPENDENCY linked-from (ENTERTAINMENT...)......)} in CX.54
+Subgoals of #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} completed
+Run inferences in #{CX.54: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.54: (CX)}
+Running plans in #{CX.54: (CX)} for #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Terminating planning for top-level goal #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)}
+Leaf context #{CX.54: (CX)}
+[OB.2217: (SG. (ENTERTAINMENT (UPROC 'NEED-SATISFIED?)))]
+  [OB.3604: (SG. (M-MOVIE ME))]
+    [OB.2262: (SG. (AT NUART-THEATER NUART-LOCATION))]
+    [OB.2292: (SG. (PTRANS ME HOME NUART-LOCATION ME))]
+      [OB.2286: (SG. (KNOW ME NUART-LOCATION))]
+    [OB.3532: (SG. (MTRANS ME NUART-THEATER ME (MOVIE)))]
+      [OB.3517: (SG. (AT NUART-THEATER NUART-LOCATION))]
+      [OB.3526: (SG. (AT ME NUART-LOCATION))]
+    [OB.3568: (SG. (PTRANS ME NUART-LOCATION HOME ME))]
+      [OB.3564: (SG. (KNOW ME HOME))]
+Personal goal concern OB.3454: LOVERS motiv 0.9 status HALTED
+Daydreaming goal concern OB.3443: RATIONALIZATION motiv 1.1524999 status RUNABLE
+Daydreaming goal concern OB.3433: REVENGE motiv 1.1424999 status RUNABLE
+Daydreaming goal concern OB.2838: RATIONALIZATION motiv 1.01 status RUNABLE
+Removing motivating emotions of #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} in #{CX.54: (CX)}
+Retract OB.2220 in CX.54
+Retract OB.2219 in CX.54
+Emotional responses for #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} in #{CX.54: (CX)}
+Add dependency from #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} to #{OB.3633: (POS-EMOTION)} in #{CX.54: (CX)}
+Assert #{OB.3634: (DEPENDENCY linked-from (SUCCEEDED-GOAL...)......)} in CX.54
+Assert #{OB.3633: (POS-EMOTION strength 0.6)} in CX.54
+==================================================
+ I feel amused.
+==================================================
+Store episode #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} in #{CX.54: (CX)}
+Assess scenario desirability in #{CX.54: (CX)}
+#{OB.2212: (FAILED-GOAL obj (LOVERS actor ......)......)} (1.15)
+#{OB.2829: (FAILED-GOAL obj (BELIEVE actor ......)......)} (0.95)
+#{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)} (0.6)
+Scenario desirability = -1.4999999
+Store goal of episode #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)}, realism 1.0
+Store goal of episode #{OB.3604: (SUCCEEDED-GOAL obj (M-MOVIE...)......)}, realism 1.0
+Store goal of episode #{OB.2262: (SUCCEEDED-GOAL obj (AT actor ......)......)}, realism 1.0
+Store goal of episode #{OB.2292: (SUCCEEDED-GOAL obj (PTRANS...)......)}, realism 1.0
+Store goal of episode #{OB.2286: (SUCCEEDED-GOAL obj (KNOW actor ......)......)}, realism 1.0
+Make episode for goal #{OB.2292: (SUCCEEDED-GOAL obj (PTRANS...)......)}
+Storing #{EPISODE.12: (EPISODE rule PTRANS-PLAN goal ......)} under #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+Store goal of episode #{OB.3532: (SUCCEEDED-GOAL obj (MTRANS...)......)}, realism 1.0
+Store goal of episode #{OB.3517: (SUCCEEDED-GOAL obj (AT actor ......)......)}, realism 1.0
+Store goal of episode #{OB.3526: (SUCCEEDED-GOAL obj (AT actor ......)......)}, realism 1.0
+Make episode for goal #{OB.3532: (SUCCEEDED-GOAL obj (MTRANS...)......)}
+Storing #{EPISODE.13: (EPISODE rule MTRANS-MOVIE-PLAN......)} under #{MTRANS-MOVIE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+Store goal of episode #{OB.3568: (SUCCEEDED-GOAL obj (PTRANS...)......)}, realism 1.0
+Store goal of episode #{OB.3564: (SUCCEEDED-GOAL obj (KNOW actor ......)......)}, realism 1.0
+Make episode for goal #{OB.3568: (SUCCEEDED-GOAL obj (PTRANS...)......)}
+Storing #{EPISODE.14: (EPISODE rule PTRANS-PLAN goal ......)} under #{PTRANS-PLAN: (RULE subgoal (KNOW actor ?PERSON......)......)}
+Make episode for goal #{OB.3604: (SUCCEEDED-GOAL obj (M-MOVIE...)......)}
+Storing #{EPISODE.15: (EPISODE rule M-MOVIE-ALONE-PLAN......)} under #{M-MOVIE-ALONE-PLAN: (RULE subgoal (RSEQ obj (AT...) ......)......)}
+Make episode for goal #{OB.2217: (SUCCEEDED-GOAL obj (ENTERTAINMENT...)......)}
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{ENTERTAINMENT-PLAN1: (RULE subgoal (M-MOVIE actor ......)......)}
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{OB.3633: (POS-EMOTION strength 0.6)}
+Assert #{OB.3633: (POS-EMOTION strength 0.6)} in EPISODIC-MEMORY
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+Assert #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)} in EPISODIC-MEMORY
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{NUART-THEATER: (THEATER name "the Nuart")}
+Assert #{NUART-THEATER: (THEATER name "the Nuart")} in EPISODIC-MEMORY
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{NUART-LOCATION: (LOCATION name "the Nuart")}
+Assert #{NUART-LOCATION: (LOCATION name "the Nuart")} in EPISODIC-MEMORY
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{HOME: (LOCATION name "home")}
+Assert #{HOME: (LOCATION name "home")} in EPISODIC-MEMORY
+Storing #{EPISODE.16: (EPISODE rule ENTERTAINMENT-PLAN1......)} under #{OB.3014: (MOVIES obj MOVIE-STAR1)}
+Assert #{OB.3014: (MOVIES obj MOVIE-STAR1)} in EPISODIC-MEMORY
+Activate index #{ENTERTAINMENT-PLAN1: (RULE subgoal (M-MOVIE actor ......)......)}
+Activate index #{MOVIE-STAR1: (MALE-ACTOR first-name "Harrison"......)}
+Activate index #{NUART-THEATER: (THEATER name "the Nuart")}
+Activate index #{NUART-LOCATION: (LOCATION name "the Nuart")}
+Activate index #{HOME: (LOCATION name "home")}
+Activate index #{OB.3014: (MOVIES obj MOVIE-STAR1)}
+#{CX.54: (CX)} --> #{CX.55: (CX)}
+Retract OB.3564 in CX.55
+Retract OB.3573 in CX.55
+Retract OB.3568 in CX.55
+Retract OB.3526 in CX.55
+Retract OB.3517 in CX.55
+Retract OB.3537 in CX.55
+Retract OB.3538 in CX.55
+Retract OB.3532 in CX.55
+Retract OB.2286 in CX.55
+Retract OB.2296 in CX.55
+Retract OB.2292 in CX.55
+Retract OB.2262 in CX.55
+Retract OB.3606 in CX.55
+Retract OB.3607 in CX.55
+Retract OB.3608 in CX.55
+Retract OB.3609 in CX.55
+Retract OB.3604 in CX.55
+Retract OB.3610 in CX.55
+:No more goals to run; switching to daydreaming mode
+State changes from PERFORMANCE to DAYDREAMING
+:Switching to new top-level goal #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)}
+----------------------CX.49--------------------
+Running rules for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)}
+setting last sprout concept = NIL in #{CX.47: (CX)}
+Run inferences in #{CX.49: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.49: (CX)}
+Running plans in #{CX.49: (CX)} for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.49: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.3444: (RATIONALIZATION obj (FAILED-GOAL...)......)} in #{CX.49: (CX)}
+Order candidates 
+((#{RATIONALIZATION-PLAN1: (RULE subgoal (LEADTO ante ......) goal ......)}
+  (T (STATE #{OB.2677: (LOVERS actor ME MOVIE-STAR1......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)})))
+ (#{RATIONALIZATION-PLAN2: (RULE subgoal (LEADTO ante ......) goal ......)}
+  (T (STATE #{OB.2677: (LOVERS actor ME MOVIE-STAR1......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan #{RATIONALIZATION-PLAN1: (RULE subgoal (LEADTO ante ......) goal ......)} for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.49: (CX)}
+#{CX.49: (CX)} --> #{CX.56: (CX)}
+Debugging being delayed for broadcast at a later time.
+RATIONALIZATION-PLAN1 Debugging resumed.
+Run generic plan #{RATIONALIZATION-PLAN2: (RULE subgoal (LEADTO ante ......) goal ......)} for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} in #{CX.49: (CX)}
+#{CX.49: (CX)} --> #{CX.57: (CX)}
+Debugging being delayed for broadcast at a later time.
+RATIONALIZATION-PLAN2 Debugging resumed.
+Pruning possibilities from (#{CX.57: (CX)} #{CX.56: (CX)})
+:----------------------CX.56--------------------
+Running rules for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)}
+setting last sprout concept = NIL in #{CX.49: (CX)}
+Broadcasting delayed debugs.
+******************
+RATIONALIZATION-PLAN1 fired as plan 
+for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)}
+in CX.49 sprouting CX.56
+-------------------------------------------------------
+IF   ACTIVE-GOAL for RATIONALIZATION of failure 
+THEN ACTIVE-GOAL for success to LEADTO failure 
+-------------------------------------------------------
+
+?STATE = #{OB.2677: (LOVERS actor ME MOVIE-STAR1......)}
+?SELF = #{ME: (FEMALE-PERSON first-name "Sarah"......)}
+Retract OB.3371 in CX.56
+Assert #{OB.3662: (ORDERING)} in CX.56
+Instantiate and activate subgoals
+Activate subgoal for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} obj #{OB.3663: (LEADTO ante (SUCCEEDED-GOAL...)......)} in #{CX.56: (CX)}
+Assert #{OB.3667: (INTENDS linked-from (ACTIVE-GOAL...)......)} in CX.56
+Assert #{OB.3666: (ACTIVE-GOAL obj (LEADTO ante ......)......)} in CX.56
+End of delayed broadcast.
+Run inferences in #{CX.56: (CX)}, bp = (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Running p-goals in #{CX.56: (CX)}
+Running plans in #{CX.56: (CX)} for #{OB.3443: (ACTIVE-GOAL obj (RATIONALIZATION...)......)} bp (#{ME: (FEMALE-PERSON first-name "Sarah"......)})
+Run plan for #{OB.3666: (ACTIVE-GOAL obj (LEADTO ante ......)......)} in #{CX.56: (CX)}
+Try fact plans
+Try rules and episodes
+Find candidate rules for obj #{OB.3663: (LEADTO ante (SUCCEEDED-GOAL...)......)} in #{CX.56: (CX)}
+Order candidates 
+((#{LEADTO-PLAN1: (RULE subgoal (RCODE obj (QUOTE (LAMBDA (GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)
+   (LEADTO-PLAN1 GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)))) goal ......)}
+  (T (STATE #{OB.2677: (LOVERS actor ME MOVIE-STAR1......)})
+   (SELF #{ME: (FEMALE-PERSON first-name "Sarah"......)}))))
+Run generic plan 
+#{LEADTO-PLAN1: (RULE subgoal (RCODE obj (QUOTE (LAMBDA (GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)
+ (LEADTO-PLAN1 GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)))) goal ......)} for #{OB.3666: (ACTIVE-GOAL obj (LEADTO ante ......)......)} in #{CX.56: (CX)}
+
+*** - NCONC:
+       #<FUNCTION :LAMBDA (GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)
+         (LEADTO-PLAN1 GOAL CONTEXT TOP-LEVEL-GOAL RULE BD)>
+      is not a list
+The following restarts are available:
+SKIP           :R1      skip (DAYDREAMER)
+RETRY          :R2      retry (DAYDREAMER)
+STOP           :R3      stop loading file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd.cl
+ABORT          :R4      Abort main loop
+Break 1 [11]> :R1
+;; Loaded file /media/andrewdo/s3/sandbox/daydreamer-20171020/daydreamer-20171020/dd.cl
+T
+[12]> 
